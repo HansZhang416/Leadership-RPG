@@ -9,6 +9,7 @@ Leadership Project/[Bb]uild/
 Leadership Project/[Bb]uilds/
 Leadership Project/[Ll]ogs/
 Leadership Project/[Mm]emoryCaptures/
+Leadership Project/Assets/[Ff]irebase/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "458249145987",
+    "project_id": "leadership-project-6db48",
+    "storage_bucket": "leadership-project-6db48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458249145987:ios:0a361c46f5d2fe83ad55b6",
+        "android_client_info": {
+          "package_name": "com.hansz.leadershipRPG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458249145987-2loqmufpd8qchlcofularkfm7v5q77jc.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxSkdipt8QBmBQarjSeGoCXf-oAICuz9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
