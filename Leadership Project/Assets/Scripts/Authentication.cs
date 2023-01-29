@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
 
@@ -58,12 +59,14 @@ namespace Managers
                 {
                     // login stuff here
                     signedIn = true;
+                    
                 }
             }
         }
 
         public IEnumerator Login(string email, string password)
         {
+            Debug.Log("Login task pending...");
             var loginTask = auth.SignInWithEmailAndPasswordAsync(email, password);
 
             yield return new WaitUntil(predicate: () => loginTask.IsCompleted);
@@ -71,11 +74,14 @@ namespace Managers
             if (loginTask.Exception == null)
             {
                 user = loginTask.Result;
+                Debug.Log("Login successful!");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
 
-        public IEnumerator Register(string username, string email, string password)
+        public IEnumerator Register(string email, string password)
         {
+            Debug.Log("Register task pending...");
             var registerTask = auth.CreateUserWithEmailAndPasswordAsync(email, password);
 
             yield return new WaitUntil(predicate: () => registerTask.IsCompleted);
@@ -83,6 +89,8 @@ namespace Managers
             if (registerTask.Exception == null)
             {   
                 user = registerTask.Result;
+                Debug.Log("User created successfully!");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
 
@@ -94,6 +102,7 @@ namespace Managers
             auth = null;
 
             // Go back to manager's scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 }
