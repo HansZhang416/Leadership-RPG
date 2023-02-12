@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
+using Firebase.Firestore;
+using Firebase.Extensions;
 
 namespace Managers
 {
@@ -12,6 +14,7 @@ namespace Managers
         public DependencyStatus dependencyStatus;
         public FirebaseAuth auth;
         public FirebaseUser user;
+        FirebaseFirestore db;
 
         public static bool signedIn;
 
@@ -35,6 +38,7 @@ namespace Managers
 
         void InitializeFirebase()
         {
+            db = FirebaseFirestore.DefaultInstance;
             auth = FirebaseAuth.DefaultInstance;
             auth.StateChanged += AuthStateChanged;
             AuthStateChanged(this, null);
@@ -50,6 +54,7 @@ namespace Managers
                 if (!loggedIn && user != null)
                 {
                     Debug.Log("Signed out");
+                    Center_Manager.Instance.DeactivateListener();
                     signedIn = false;
                 }
 
@@ -58,6 +63,8 @@ namespace Managers
                 if (loggedIn)
                 {
                     // login stuff here
+                    Debug.Log("Signed in");
+                    Center_Manager.Instance.SetupListener(user.UserId);
                     signedIn = true;
                     
                 }
@@ -89,9 +96,39 @@ namespace Managers
             if (registerTask.Exception == null)
             {   
                 user = registerTask.Result;
-                Debug.Log("User created successfully!");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                Debug.Log($"User {user.UserId} created successfully!");
+                DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+
+                Dictionary<string, object> initialUserData = new Dictionary<string, object>
+                {
+                    {"level", 1},
+                };
+
+                docRef.SetAsync(initialUserData).ContinueWithOnMainThread(task => {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                });
             }
+        }
+
+        public void AddFriend(string friend_id)
+        {
+            DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+            DocumentReference friendRef = db.Collection("user_data").Document(friend_id);
+
+            Dictionary<string, object> myFriends = new Dictionary<string, object>
+            {
+                {"friends", new List<object>() {friend_id}},
+            };
+
+            Dictionary<string, object> theirFriends = new Dictionary<string, object>
+            {
+                {"friends", new List<object>() {user.UserId}},
+            };
+
+            docRef.UpdateAsync(myFriends).ContinueWithOnMainThread(task => {
+                friendRef.UpdateAsync(theirFriends);
+            });
+
         }
 
         public void Logout()
