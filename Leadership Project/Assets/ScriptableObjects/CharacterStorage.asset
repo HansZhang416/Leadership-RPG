@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fef196adbc02845b1eaf802690debe, type: 3}
+  m_Name: CharacterStorage
+  m_EditorClassIdentifier: 
+  skintones:
+  - {fileID: -1712426244, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -1671938954, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -1343698015, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 1504523970, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -1047437129, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 421537165, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  shirt:
+  - {fileID: 1690075129, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -767837469, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  pants:
+  - {fileID: -1251785961, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -193131251, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  shoes:
+  - {fileID: 1447036674, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 589130299, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  hair:
+  - {fileID: -979223816, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 1473542041, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  hats:
+  - {fileID: -1641352019, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 1010740626, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  weapon:
+  - {fileID: 832540137, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: 217437934, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  shield:
+  - {fileID: 198260947, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}
+  - {fileID: -1187254406, guid: 722778db93063714bb22a9b3b42e3b84, type: 3}

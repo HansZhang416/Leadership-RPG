@@ -81,6 +81,7 @@ namespace Managers
             if (loginTask.Exception == null)
             {
                 user = loginTask.Result;
+                Center_Manager.Instance.SetupListener(user.UserId);
                 Debug.Log("Login successful!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
@@ -135,6 +136,7 @@ namespace Managers
         {
             auth.SignOut();
             // signedIn = false;
+            Center_Manager.Instance.DeactivateListener();
             auth.StateChanged -= AuthStateChanged;
             auth = null;
 
