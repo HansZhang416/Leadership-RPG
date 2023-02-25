@@ -19,21 +19,23 @@ namespace Managers
         public static bool signedIn;
 
         // //basically multitasking = Asynchronous
-        void Awake() 
+        void Start() 
         {
-            FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => 
-                {
-                    dependencyStatus = task.Result;
-                    if (dependencyStatus == DependencyStatus.Available)
-                    {
-                        InitializeFirebase();
-                    }
-                    else
-                    {
-                        Debug.LogError("Could not resolve all Firebase dependencies: " + dependencyStatus);
-                    }
-                }
-            );
+            while(!Center_Manager.Instance.setup) {}
+            InitializeFirebase();
+            // FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => 
+            //     {
+            //         dependencyStatus = task.Result;
+            //         if (dependencyStatus == DependencyStatus.Available)
+            //         {
+            //             InitializeFirebase();
+            //         }
+            //         else
+            //         {
+            //             Debug.LogError("Could not resolve all Firebase dependencies: " + dependencyStatus);
+            //         }
+            //     }
+            // );
         }
 
         void InitializeFirebase()
@@ -139,9 +141,10 @@ namespace Managers
             Center_Manager.Instance.DeactivateListener();
             auth.StateChanged -= AuthStateChanged;
             auth = null;
+            signedIn = false;
 
             // Go back to manager's scene
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(0);
         }
     }
 }

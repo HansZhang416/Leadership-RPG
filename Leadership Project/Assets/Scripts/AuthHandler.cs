@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Managers;
+using UnityEngine.SceneManagement;
 
 //managers do backend things (things cannot be seen), handlers serves as a bridge between user and manager.
 
@@ -17,6 +18,14 @@ public class AuthHandler : MonoBehaviour
     public TMP_InputField passwordRegisterField;
     public TMP_InputField confirmPasswordRegisterField;
 
+
+    void Update()
+    {
+        if (Authentication.signedIn && SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
 
     public void LoginButton()
     {

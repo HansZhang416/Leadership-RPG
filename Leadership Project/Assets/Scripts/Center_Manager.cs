@@ -14,12 +14,15 @@ namespace Managers
         public Dictionary<string, object> userData;
         ListenerRegistration userDataListener;
         FirebaseFirestore db;
+        [HideInInspector] public bool setup;
 
         private void Awake() {
             Instance = this;
             db = FirebaseFirestore.DefaultInstance;
+            Debug.Log("uh");
             authManager = GetComponent<Authentication>();
 
+            setup = true;
         }
 
         public void SetupListener(string uid)
