@@ -4,6 +4,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Character Profile", menuName = "CharacterProfile")]
 public class Profile : ScriptableObject
 {
+
+    [Header("Character Assets")]
+    public Character characterAssets;
+
     [Header("Skintone")]
     public Sprite skintone;
 

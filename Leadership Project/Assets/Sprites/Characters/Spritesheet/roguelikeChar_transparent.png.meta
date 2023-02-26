@@ -162,7 +162,7 @@ TextureImporter:
       name: roguelikeChar_transparent_2
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 187
         width: 16
         height: 16
@@ -183,7 +183,7 @@ TextureImporter:
       name: roguelikeChar_transparent_3
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 187
         width: 16
         height: 16
@@ -204,7 +204,7 @@ TextureImporter:
       name: roguelikeChar_transparent_4
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 187
         width: 16
         height: 16
@@ -225,7 +225,7 @@ TextureImporter:
       name: roguelikeChar_transparent_5
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 187
         width: 16
         height: 16
@@ -246,7 +246,7 @@ TextureImporter:
       name: roguelikeChar_transparent_6
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 187
         width: 16
         height: 16
@@ -267,7 +267,7 @@ TextureImporter:
       name: roguelikeChar_transparent_7
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 187
         width: 16
         height: 16
@@ -288,7 +288,7 @@ TextureImporter:
       name: roguelikeChar_transparent_8
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 187
         width: 16
         height: 16
@@ -309,7 +309,7 @@ TextureImporter:
       name: roguelikeChar_transparent_9
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 187
         width: 16
         height: 16
@@ -330,7 +330,7 @@ TextureImporter:
       name: roguelikeChar_transparent_10
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 187
         width: 16
         height: 16
@@ -351,7 +351,7 @@ TextureImporter:
       name: roguelikeChar_transparent_11
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 187
         width: 16
         height: 16
@@ -372,7 +372,7 @@ TextureImporter:
       name: roguelikeChar_transparent_12
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 187
         width: 16
         height: 16
@@ -393,7 +393,7 @@ TextureImporter:
       name: roguelikeChar_transparent_13
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 187
         width: 16
         height: 16
@@ -414,7 +414,7 @@ TextureImporter:
       name: roguelikeChar_transparent_14
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 187
         width: 16
         height: 16
@@ -456,7 +456,7 @@ TextureImporter:
       name: roguelikeChar_transparent_16
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 187
         width: 16
         height: 16
@@ -477,7 +477,7 @@ TextureImporter:
       name: roguelikeChar_transparent_17
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 187
         width: 16
         height: 16
@@ -498,7 +498,7 @@ TextureImporter:
       name: roguelikeChar_transparent_18
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 187
         width: 16
         height: 16
@@ -519,7 +519,7 @@ TextureImporter:
       name: roguelikeChar_transparent_19
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 187
         width: 16
         height: 16
@@ -540,7 +540,7 @@ TextureImporter:
       name: roguelikeChar_transparent_20
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 187
         width: 16
         height: 16
@@ -561,7 +561,7 @@ TextureImporter:
       name: roguelikeChar_transparent_21
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 187
         width: 16
         height: 16
@@ -582,7 +582,7 @@ TextureImporter:
       name: roguelikeChar_transparent_22
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 187
         width: 16
         height: 16
@@ -603,7 +603,7 @@ TextureImporter:
       name: roguelikeChar_transparent_23
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 187
         width: 16
         height: 16
@@ -624,7 +624,7 @@ TextureImporter:
       name: roguelikeChar_transparent_24
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 187
         width: 16
         height: 16
@@ -645,7 +645,7 @@ TextureImporter:
       name: roguelikeChar_transparent_25
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 187
         width: 16
         height: 16
@@ -666,7 +666,7 @@ TextureImporter:
       name: roguelikeChar_transparent_26
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 187
         width: 16
         height: 16
@@ -687,7 +687,7 @@ TextureImporter:
       name: roguelikeChar_transparent_27
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 187
         width: 16
         height: 16
@@ -708,7 +708,7 @@ TextureImporter:
       name: roguelikeChar_transparent_28
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 187
         width: 16
         height: 16
@@ -729,7 +729,7 @@ TextureImporter:
       name: roguelikeChar_transparent_29
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 187
         width: 16
         height: 16
@@ -750,7 +750,7 @@ TextureImporter:
       name: roguelikeChar_transparent_30
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 187
         width: 16
         height: 16
@@ -771,7 +771,7 @@ TextureImporter:
       name: roguelikeChar_transparent_31
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 187
         width: 16
         height: 16
@@ -792,7 +792,7 @@ TextureImporter:
       name: roguelikeChar_transparent_32
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 187
         width: 16
         height: 16
@@ -813,7 +813,7 @@ TextureImporter:
       name: roguelikeChar_transparent_33
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 187
         width: 16
         height: 16
@@ -834,7 +834,7 @@ TextureImporter:
       name: roguelikeChar_transparent_34
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 187
         width: 16
         height: 16
@@ -855,7 +855,7 @@ TextureImporter:
       name: roguelikeChar_transparent_35
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 187
         width: 16
         height: 16
@@ -876,7 +876,7 @@ TextureImporter:
       name: roguelikeChar_transparent_36
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 187
         width: 16
         height: 16
@@ -897,7 +897,7 @@ TextureImporter:
       name: roguelikeChar_transparent_37
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 187
         width: 16
         height: 16
@@ -918,7 +918,7 @@ TextureImporter:
       name: roguelikeChar_transparent_38
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 187
         width: 16
         height: 16
@@ -939,7 +939,7 @@ TextureImporter:
       name: roguelikeChar_transparent_39
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 187
         width: 16
         height: 16
@@ -960,7 +960,7 @@ TextureImporter:
       name: roguelikeChar_transparent_40
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 187
         width: 16
         height: 16
@@ -981,7 +981,7 @@ TextureImporter:
       name: roguelikeChar_transparent_41
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 187
         width: 16
         height: 16
@@ -1002,7 +1002,7 @@ TextureImporter:
       name: roguelikeChar_transparent_42
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 187
         width: 16
         height: 16
@@ -1023,7 +1023,7 @@ TextureImporter:
       name: roguelikeChar_transparent_43
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 187
         width: 16
         height: 16
@@ -1044,7 +1044,7 @@ TextureImporter:
       name: roguelikeChar_transparent_44
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 187
         width: 16
         height: 16
@@ -1065,7 +1065,7 @@ TextureImporter:
       name: roguelikeChar_transparent_45
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 187
         width: 16
         height: 16
@@ -1086,7 +1086,7 @@ TextureImporter:
       name: roguelikeChar_transparent_46
       rect:
         serializedVersion: 2
-        x: 884
+        x: 885
         y: 187
         width: 16
         height: 16
@@ -1107,7 +1107,7 @@ TextureImporter:
       name: roguelikeChar_transparent_47
       rect:
         serializedVersion: 2
-        x: 901
+        x: 902
         y: 187
         width: 16
         height: 16
@@ -1170,7 +1170,7 @@ TextureImporter:
       name: roguelikeChar_transparent_50
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 170
         width: 16
         height: 16
@@ -1191,7 +1191,7 @@ TextureImporter:
       name: roguelikeChar_transparent_51
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 170
         width: 16
         height: 16
@@ -1212,7 +1212,7 @@ TextureImporter:
       name: roguelikeChar_transparent_52
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 170
         width: 16
         height: 16
@@ -1233,7 +1233,7 @@ TextureImporter:
       name: roguelikeChar_transparent_53
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 170
         width: 16
         height: 16
@@ -1254,7 +1254,7 @@ TextureImporter:
       name: roguelikeChar_transparent_54
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 170
         width: 16
         height: 16
@@ -1275,7 +1275,7 @@ TextureImporter:
       name: roguelikeChar_transparent_55
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 170
         width: 16
         height: 16
@@ -1296,7 +1296,7 @@ TextureImporter:
       name: roguelikeChar_transparent_56
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 170
         width: 16
         height: 16
@@ -1317,7 +1317,7 @@ TextureImporter:
       name: roguelikeChar_transparent_57
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 170
         width: 16
         height: 16
@@ -1338,7 +1338,7 @@ TextureImporter:
       name: roguelikeChar_transparent_58
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 170
         width: 16
         height: 16
@@ -1359,7 +1359,7 @@ TextureImporter:
       name: roguelikeChar_transparent_59
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 170
         width: 16
         height: 16
@@ -1380,7 +1380,7 @@ TextureImporter:
       name: roguelikeChar_transparent_60
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 170
         width: 16
         height: 16
@@ -1401,7 +1401,7 @@ TextureImporter:
       name: roguelikeChar_transparent_61
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 170
         width: 16
         height: 16
@@ -1422,7 +1422,7 @@ TextureImporter:
       name: roguelikeChar_transparent_62
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 170
         width: 16
         height: 16
@@ -1443,7 +1443,7 @@ TextureImporter:
       name: roguelikeChar_transparent_63
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 170
         width: 16
         height: 16
@@ -1464,7 +1464,7 @@ TextureImporter:
       name: roguelikeChar_transparent_64
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 170
         width: 16
         height: 16
@@ -1485,7 +1485,7 @@ TextureImporter:
       name: roguelikeChar_transparent_65
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 170
         width: 16
         height: 16
@@ -1506,7 +1506,7 @@ TextureImporter:
       name: roguelikeChar_transparent_66
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 170
         width: 16
         height: 16
@@ -1527,7 +1527,7 @@ TextureImporter:
       name: roguelikeChar_transparent_67
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 170
         width: 16
         height: 16
@@ -1548,7 +1548,7 @@ TextureImporter:
       name: roguelikeChar_transparent_68
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 170
         width: 16
         height: 16
@@ -1569,7 +1569,7 @@ TextureImporter:
       name: roguelikeChar_transparent_69
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 170
         width: 16
         height: 16
@@ -1590,7 +1590,7 @@ TextureImporter:
       name: roguelikeChar_transparent_70
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 170
         width: 16
         height: 16
@@ -1611,7 +1611,7 @@ TextureImporter:
       name: roguelikeChar_transparent_71
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 170
         width: 16
         height: 16
@@ -1632,7 +1632,7 @@ TextureImporter:
       name: roguelikeChar_transparent_72
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 170
         width: 16
         height: 16
@@ -1653,7 +1653,7 @@ TextureImporter:
       name: roguelikeChar_transparent_73
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 170
         width: 16
         height: 16
@@ -1674,7 +1674,7 @@ TextureImporter:
       name: roguelikeChar_transparent_74
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 170
         width: 16
         height: 16
@@ -1695,7 +1695,7 @@ TextureImporter:
       name: roguelikeChar_transparent_75
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 170
         width: 16
         height: 16
@@ -1716,7 +1716,7 @@ TextureImporter:
       name: roguelikeChar_transparent_76
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 170
         width: 16
         height: 16
@@ -1737,7 +1737,7 @@ TextureImporter:
       name: roguelikeChar_transparent_77
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 170
         width: 16
         height: 16
@@ -1758,7 +1758,7 @@ TextureImporter:
       name: roguelikeChar_transparent_78
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 170
         width: 16
         height: 16
@@ -1779,7 +1779,7 @@ TextureImporter:
       name: roguelikeChar_transparent_79
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 170
         width: 16
         height: 16
@@ -1800,7 +1800,7 @@ TextureImporter:
       name: roguelikeChar_transparent_80
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 170
         width: 16
         height: 16
@@ -1821,7 +1821,7 @@ TextureImporter:
       name: roguelikeChar_transparent_81
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 170
         width: 16
         height: 16
@@ -1842,7 +1842,7 @@ TextureImporter:
       name: roguelikeChar_transparent_82
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 170
         width: 16
         height: 16
@@ -1863,7 +1863,7 @@ TextureImporter:
       name: roguelikeChar_transparent_83
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 170
         width: 16
         height: 16
@@ -1884,7 +1884,7 @@ TextureImporter:
       name: roguelikeChar_transparent_84
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 170
         width: 16
         height: 16
@@ -1905,7 +1905,7 @@ TextureImporter:
       name: roguelikeChar_transparent_85
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 170
         width: 16
         height: 16
@@ -1926,7 +1926,7 @@ TextureImporter:
       name: roguelikeChar_transparent_86
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 170
         width: 16
         height: 16
@@ -1947,7 +1947,7 @@ TextureImporter:
       name: roguelikeChar_transparent_87
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 170
         width: 16
         height: 16
@@ -1968,7 +1968,7 @@ TextureImporter:
       name: roguelikeChar_transparent_88
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 170
         width: 16
         height: 16
@@ -1989,7 +1989,7 @@ TextureImporter:
       name: roguelikeChar_transparent_89
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 170
         width: 16
         height: 16
@@ -2010,7 +2010,7 @@ TextureImporter:
       name: roguelikeChar_transparent_90
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 170
         width: 16
         height: 16
@@ -2031,7 +2031,7 @@ TextureImporter:
       name: roguelikeChar_transparent_91
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 170
         width: 16
         height: 16
@@ -2052,7 +2052,7 @@ TextureImporter:
       name: roguelikeChar_transparent_92
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 170
         width: 16
         height: 16
@@ -2073,7 +2073,7 @@ TextureImporter:
       name: roguelikeChar_transparent_93
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 170
         width: 16
         height: 16
@@ -2094,7 +2094,7 @@ TextureImporter:
       name: roguelikeChar_transparent_94
       rect:
         serializedVersion: 2
-        x: 884
+        x: 885
         y: 170
         width: 16
         height: 16
@@ -2115,7 +2115,7 @@ TextureImporter:
       name: roguelikeChar_transparent_95
       rect:
         serializedVersion: 2
-        x: 901
+        x: 902
         y: 170
         width: 16
         height: 16
@@ -2178,7 +2178,7 @@ TextureImporter:
       name: roguelikeChar_transparent_98
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 153
         width: 16
         height: 16
@@ -2199,7 +2199,7 @@ TextureImporter:
       name: roguelikeChar_transparent_99
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 153
         width: 16
         height: 16
@@ -2220,7 +2220,7 @@ TextureImporter:
       name: roguelikeChar_transparent_100
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 153
         width: 16
         height: 16
@@ -2241,7 +2241,7 @@ TextureImporter:
       name: roguelikeChar_transparent_101
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 153
         width: 16
         height: 16
@@ -2262,7 +2262,7 @@ TextureImporter:
       name: roguelikeChar_transparent_102
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 153
         width: 16
         height: 16
@@ -2283,7 +2283,7 @@ TextureImporter:
       name: roguelikeChar_transparent_103
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 153
         width: 16
         height: 16
@@ -2304,7 +2304,7 @@ TextureImporter:
       name: roguelikeChar_transparent_104
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 153
         width: 16
         height: 16
@@ -2325,7 +2325,7 @@ TextureImporter:
       name: roguelikeChar_transparent_105
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 153
         width: 16
         height: 16
@@ -2346,7 +2346,7 @@ TextureImporter:
       name: roguelikeChar_transparent_106
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 153
         width: 16
         height: 16
@@ -2367,7 +2367,7 @@ TextureImporter:
       name: roguelikeChar_transparent_107
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 153
         width: 16
         height: 16
@@ -2388,7 +2388,7 @@ TextureImporter:
       name: roguelikeChar_transparent_108
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 153
         width: 16
         height: 16
@@ -2409,7 +2409,7 @@ TextureImporter:
       name: roguelikeChar_transparent_109
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 153
         width: 16
         height: 16
@@ -2430,7 +2430,7 @@ TextureImporter:
       name: roguelikeChar_transparent_110
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 153
         width: 16
         height: 16
@@ -2451,7 +2451,7 @@ TextureImporter:
       name: roguelikeChar_transparent_111
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 153
         width: 16
         height: 16
@@ -2472,7 +2472,7 @@ TextureImporter:
       name: roguelikeChar_transparent_112
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 153
         width: 16
         height: 16
@@ -2493,7 +2493,7 @@ TextureImporter:
       name: roguelikeChar_transparent_113
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 153
         width: 16
         height: 16
@@ -2514,7 +2514,7 @@ TextureImporter:
       name: roguelikeChar_transparent_114
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 153
         width: 16
         height: 16
@@ -2535,7 +2535,7 @@ TextureImporter:
       name: roguelikeChar_transparent_115
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 153
         width: 16
         height: 16
@@ -2556,7 +2556,7 @@ TextureImporter:
       name: roguelikeChar_transparent_116
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 153
         width: 16
         height: 16
@@ -2577,7 +2577,7 @@ TextureImporter:
       name: roguelikeChar_transparent_117
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 153
         width: 16
         height: 16
@@ -2598,7 +2598,7 @@ TextureImporter:
       name: roguelikeChar_transparent_118
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 153
         width: 16
         height: 16
@@ -2619,7 +2619,7 @@ TextureImporter:
       name: roguelikeChar_transparent_119
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 153
         width: 16
         height: 16
@@ -2640,7 +2640,7 @@ TextureImporter:
       name: roguelikeChar_transparent_120
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 153
         width: 16
         height: 16
@@ -2661,7 +2661,7 @@ TextureImporter:
       name: roguelikeChar_transparent_121
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 153
         width: 16
         height: 16
@@ -2682,7 +2682,7 @@ TextureImporter:
       name: roguelikeChar_transparent_122
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 153
         width: 16
         height: 16
@@ -2703,7 +2703,7 @@ TextureImporter:
       name: roguelikeChar_transparent_123
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 153
         width: 16
         height: 16
@@ -2724,7 +2724,7 @@ TextureImporter:
       name: roguelikeChar_transparent_124
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 153
         width: 16
         height: 16
@@ -2745,7 +2745,7 @@ TextureImporter:
       name: roguelikeChar_transparent_125
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 153
         width: 16
         height: 16
@@ -2766,7 +2766,7 @@ TextureImporter:
       name: roguelikeChar_transparent_126
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 153
         width: 16
         height: 16
@@ -2787,7 +2787,7 @@ TextureImporter:
       name: roguelikeChar_transparent_127
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 153
         width: 16
         height: 16
@@ -2808,7 +2808,7 @@ TextureImporter:
       name: roguelikeChar_transparent_128
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 153
         width: 16
         height: 16
@@ -2829,7 +2829,7 @@ TextureImporter:
       name: roguelikeChar_transparent_129
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 153
         width: 16
         height: 16
@@ -2850,7 +2850,7 @@ TextureImporter:
       name: roguelikeChar_transparent_130
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 153
         width: 16
         height: 16
@@ -2871,7 +2871,7 @@ TextureImporter:
       name: roguelikeChar_transparent_131
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 153
         width: 16
         height: 16
@@ -2892,7 +2892,7 @@ TextureImporter:
       name: roguelikeChar_transparent_132
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 153
         width: 16
         height: 16
@@ -2913,7 +2913,7 @@ TextureImporter:
       name: roguelikeChar_transparent_133
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 153
         width: 16
         height: 16
@@ -2934,7 +2934,7 @@ TextureImporter:
       name: roguelikeChar_transparent_134
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 153
         width: 16
         height: 16
@@ -2955,7 +2955,7 @@ TextureImporter:
       name: roguelikeChar_transparent_135
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 153
         width: 16
         height: 16
@@ -2976,7 +2976,7 @@ TextureImporter:
       name: roguelikeChar_transparent_136
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 153
         width: 16
         height: 16
@@ -2997,7 +2997,7 @@ TextureImporter:
       name: roguelikeChar_transparent_137
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 153
         width: 16
         height: 16
@@ -3018,7 +3018,7 @@ TextureImporter:
       name: roguelikeChar_transparent_138
       rect:
         serializedVersion: 2
-        x: 884
+        x: 885
         y: 153
         width: 16
         height: 16
@@ -3039,7 +3039,7 @@ TextureImporter:
       name: roguelikeChar_transparent_139
       rect:
         serializedVersion: 2
-        x: 901
+        x: 902
         y: 153
         width: 16
         height: 16
@@ -3102,7 +3102,7 @@ TextureImporter:
       name: roguelikeChar_transparent_142
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 136
         width: 16
         height: 16
@@ -3123,7 +3123,7 @@ TextureImporter:
       name: roguelikeChar_transparent_143
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 136
         width: 16
         height: 16
@@ -3144,7 +3144,7 @@ TextureImporter:
       name: roguelikeChar_transparent_144
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 136
         width: 16
         height: 16
@@ -3165,7 +3165,7 @@ TextureImporter:
       name: roguelikeChar_transparent_145
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 136
         width: 16
         height: 16
@@ -3186,7 +3186,7 @@ TextureImporter:
       name: roguelikeChar_transparent_146
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 136
         width: 16
         height: 16
@@ -3207,7 +3207,7 @@ TextureImporter:
       name: roguelikeChar_transparent_147
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 136
         width: 16
         height: 16
@@ -3228,7 +3228,7 @@ TextureImporter:
       name: roguelikeChar_transparent_148
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 136
         width: 16
         height: 16
@@ -3249,7 +3249,7 @@ TextureImporter:
       name: roguelikeChar_transparent_149
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 136
         width: 16
         height: 16
@@ -3270,7 +3270,7 @@ TextureImporter:
       name: roguelikeChar_transparent_150
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 136
         width: 16
         height: 16
@@ -3291,7 +3291,7 @@ TextureImporter:
       name: roguelikeChar_transparent_151
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 136
         width: 16
         height: 16
@@ -3312,7 +3312,7 @@ TextureImporter:
       name: roguelikeChar_transparent_152
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 136
         width: 16
         height: 16
@@ -3333,7 +3333,7 @@ TextureImporter:
       name: roguelikeChar_transparent_153
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 136
         width: 16
         height: 16
@@ -3354,7 +3354,7 @@ TextureImporter:
       name: roguelikeChar_transparent_154
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 136
         width: 16
         height: 16
@@ -3375,7 +3375,7 @@ TextureImporter:
       name: roguelikeChar_transparent_155
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 136
         width: 16
         height: 16
@@ -3396,7 +3396,7 @@ TextureImporter:
       name: roguelikeChar_transparent_156
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 136
         width: 16
         height: 16
@@ -3417,7 +3417,7 @@ TextureImporter:
       name: roguelikeChar_transparent_157
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 136
         width: 16
         height: 16
@@ -3438,7 +3438,7 @@ TextureImporter:
       name: roguelikeChar_transparent_158
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 136
         width: 16
         height: 16
@@ -3459,7 +3459,7 @@ TextureImporter:
       name: roguelikeChar_transparent_159
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 136
         width: 16
         height: 16
@@ -3480,7 +3480,7 @@ TextureImporter:
       name: roguelikeChar_transparent_160
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 136
         width: 16
         height: 16
@@ -3501,7 +3501,7 @@ TextureImporter:
       name: roguelikeChar_transparent_161
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 136
         width: 16
         height: 16
@@ -3522,7 +3522,7 @@ TextureImporter:
       name: roguelikeChar_transparent_162
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 136
         width: 16
         height: 16
@@ -3543,7 +3543,7 @@ TextureImporter:
       name: roguelikeChar_transparent_163
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 136
         width: 16
         height: 16
@@ -3564,7 +3564,7 @@ TextureImporter:
       name: roguelikeChar_transparent_164
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 136
         width: 16
         height: 16
@@ -3585,7 +3585,7 @@ TextureImporter:
       name: roguelikeChar_transparent_165
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 136
         width: 16
         height: 16
@@ -3606,7 +3606,7 @@ TextureImporter:
       name: roguelikeChar_transparent_166
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 136
         width: 16
         height: 16
@@ -3627,7 +3627,7 @@ TextureImporter:
       name: roguelikeChar_transparent_167
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 136
         width: 16
         height: 16
@@ -3648,7 +3648,7 @@ TextureImporter:
       name: roguelikeChar_transparent_168
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 136
         width: 16
         height: 16
@@ -3669,7 +3669,7 @@ TextureImporter:
       name: roguelikeChar_transparent_169
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 136
         width: 16
         height: 16
@@ -3690,7 +3690,7 @@ TextureImporter:
       name: roguelikeChar_transparent_170
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 136
         width: 16
         height: 16
@@ -3711,7 +3711,7 @@ TextureImporter:
       name: roguelikeChar_transparent_171
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 136
         width: 16
         height: 16
@@ -3732,7 +3732,7 @@ TextureImporter:
       name: roguelikeChar_transparent_172
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 136
         width: 16
         height: 16
@@ -3753,7 +3753,7 @@ TextureImporter:
       name: roguelikeChar_transparent_173
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 136
         width: 16
         height: 16
@@ -3774,7 +3774,7 @@ TextureImporter:
       name: roguelikeChar_transparent_174
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 136
         width: 16
         height: 16
@@ -3795,7 +3795,7 @@ TextureImporter:
       name: roguelikeChar_transparent_175
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 136
         width: 16
         height: 16
@@ -3816,7 +3816,7 @@ TextureImporter:
       name: roguelikeChar_transparent_176
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 136
         width: 16
         height: 16
@@ -3837,7 +3837,7 @@ TextureImporter:
       name: roguelikeChar_transparent_177
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 136
         width: 16
         height: 16
@@ -3858,7 +3858,7 @@ TextureImporter:
       name: roguelikeChar_transparent_178
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 136
         width: 16
         height: 16
@@ -3879,7 +3879,7 @@ TextureImporter:
       name: roguelikeChar_transparent_179
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 136
         width: 16
         height: 16
@@ -3900,7 +3900,7 @@ TextureImporter:
       name: roguelikeChar_transparent_180
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 136
         width: 16
         height: 16
@@ -3921,7 +3921,7 @@ TextureImporter:
       name: roguelikeChar_transparent_181
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 136
         width: 16
         height: 16
@@ -3942,7 +3942,7 @@ TextureImporter:
       name: roguelikeChar_transparent_182
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 136
         width: 16
         height: 16
@@ -3963,7 +3963,7 @@ TextureImporter:
       name: roguelikeChar_transparent_183
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 136
         width: 16
         height: 16
@@ -3984,7 +3984,7 @@ TextureImporter:
       name: roguelikeChar_transparent_184
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 136
         width: 16
         height: 16
@@ -4005,7 +4005,7 @@ TextureImporter:
       name: roguelikeChar_transparent_185
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 136
         width: 16
         height: 16
@@ -4026,7 +4026,7 @@ TextureImporter:
       name: roguelikeChar_transparent_186
       rect:
         serializedVersion: 2
-        x: 884
+        x: 885
         y: 136
         width: 16
         height: 16
@@ -4047,7 +4047,7 @@ TextureImporter:
       name: roguelikeChar_transparent_187
       rect:
         serializedVersion: 2
-        x: 901
+        x: 902
         y: 136
         width: 16
         height: 16
@@ -4068,7 +4068,7 @@ TextureImporter:
       name: roguelikeChar_transparent_188
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 119
         width: 16
         height: 16
@@ -4089,7 +4089,7 @@ TextureImporter:
       name: roguelikeChar_transparent_189
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 119
         width: 16
         height: 16
@@ -4110,7 +4110,7 @@ TextureImporter:
       name: roguelikeChar_transparent_190
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 119
         width: 16
         height: 16
@@ -4131,7 +4131,7 @@ TextureImporter:
       name: roguelikeChar_transparent_191
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 119
         width: 16
         height: 16
@@ -4152,7 +4152,7 @@ TextureImporter:
       name: roguelikeChar_transparent_192
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 119
         width: 16
         height: 16
@@ -4173,7 +4173,7 @@ TextureImporter:
       name: roguelikeChar_transparent_193
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 119
         width: 16
         height: 16
@@ -4194,7 +4194,7 @@ TextureImporter:
       name: roguelikeChar_transparent_194
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 119
         width: 16
         height: 16
@@ -4215,7 +4215,7 @@ TextureImporter:
       name: roguelikeChar_transparent_195
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 119
         width: 16
         height: 16
@@ -4236,7 +4236,7 @@ TextureImporter:
       name: roguelikeChar_transparent_196
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 119
         width: 16
         height: 16
@@ -4257,7 +4257,7 @@ TextureImporter:
       name: roguelikeChar_transparent_197
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 119
         width: 16
         height: 16
@@ -4278,7 +4278,7 @@ TextureImporter:
       name: roguelikeChar_transparent_198
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 119
         width: 16
         height: 16
@@ -4299,7 +4299,7 @@ TextureImporter:
       name: roguelikeChar_transparent_199
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 119
         width: 16
         height: 16
@@ -4320,7 +4320,7 @@ TextureImporter:
       name: roguelikeChar_transparent_200
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 119
         width: 16
         height: 16
@@ -4341,7 +4341,7 @@ TextureImporter:
       name: roguelikeChar_transparent_201
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 119
         width: 16
         height: 16
@@ -4362,7 +4362,7 @@ TextureImporter:
       name: roguelikeChar_transparent_202
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 119
         width: 16
         height: 16
@@ -4383,7 +4383,7 @@ TextureImporter:
       name: roguelikeChar_transparent_203
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 119
         width: 16
         height: 16
@@ -4404,7 +4404,7 @@ TextureImporter:
       name: roguelikeChar_transparent_204
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 119
         width: 16
         height: 16
@@ -4425,7 +4425,7 @@ TextureImporter:
       name: roguelikeChar_transparent_205
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 119
         width: 16
         height: 16
@@ -4446,7 +4446,7 @@ TextureImporter:
       name: roguelikeChar_transparent_206
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 119
         width: 16
         height: 16
@@ -4467,7 +4467,7 @@ TextureImporter:
       name: roguelikeChar_transparent_207
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 119
         width: 16
         height: 16
@@ -4488,7 +4488,7 @@ TextureImporter:
       name: roguelikeChar_transparent_208
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 119
         width: 16
         height: 16
@@ -4509,7 +4509,7 @@ TextureImporter:
       name: roguelikeChar_transparent_209
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 119
         width: 16
         height: 16
@@ -4530,7 +4530,7 @@ TextureImporter:
       name: roguelikeChar_transparent_210
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 119
         width: 16
         height: 16
@@ -4551,7 +4551,7 @@ TextureImporter:
       name: roguelikeChar_transparent_211
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 119
         width: 16
         height: 16
@@ -4572,7 +4572,7 @@ TextureImporter:
       name: roguelikeChar_transparent_212
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 119
         width: 16
         height: 16
@@ -4593,7 +4593,7 @@ TextureImporter:
       name: roguelikeChar_transparent_213
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 119
         width: 16
         height: 16
@@ -4614,7 +4614,7 @@ TextureImporter:
       name: roguelikeChar_transparent_214
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 119
         width: 16
         height: 16
@@ -4635,7 +4635,7 @@ TextureImporter:
       name: roguelikeChar_transparent_215
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 119
         width: 16
         height: 16
@@ -4656,7 +4656,7 @@ TextureImporter:
       name: roguelikeChar_transparent_216
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 119
         width: 16
         height: 16
@@ -4677,7 +4677,7 @@ TextureImporter:
       name: roguelikeChar_transparent_217
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 119
         width: 16
         height: 16
@@ -4698,7 +4698,7 @@ TextureImporter:
       name: roguelikeChar_transparent_218
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 119
         width: 16
         height: 16
@@ -4719,7 +4719,7 @@ TextureImporter:
       name: roguelikeChar_transparent_219
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 119
         width: 16
         height: 16
@@ -4740,7 +4740,7 @@ TextureImporter:
       name: roguelikeChar_transparent_220
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 119
         width: 16
         height: 16
@@ -4761,7 +4761,7 @@ TextureImporter:
       name: roguelikeChar_transparent_221
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 119
         width: 16
         height: 16
@@ -4782,7 +4782,7 @@ TextureImporter:
       name: roguelikeChar_transparent_222
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 119
         width: 16
         height: 16
@@ -4803,7 +4803,7 @@ TextureImporter:
       name: roguelikeChar_transparent_223
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 119
         width: 16
         height: 16
@@ -4824,7 +4824,7 @@ TextureImporter:
       name: roguelikeChar_transparent_224
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 119
         width: 16
         height: 16
@@ -4845,7 +4845,7 @@ TextureImporter:
       name: roguelikeChar_transparent_225
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 119
         width: 16
         height: 16
@@ -4866,7 +4866,7 @@ TextureImporter:
       name: roguelikeChar_transparent_226
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 119
         width: 16
         height: 16
@@ -4887,7 +4887,7 @@ TextureImporter:
       name: roguelikeChar_transparent_227
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 119
         width: 16
         height: 16
@@ -4908,7 +4908,7 @@ TextureImporter:
       name: roguelikeChar_transparent_228
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 119
         width: 16
         height: 16
@@ -4929,7 +4929,7 @@ TextureImporter:
       name: roguelikeChar_transparent_229
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 119
         width: 16
         height: 16
@@ -4950,7 +4950,7 @@ TextureImporter:
       name: roguelikeChar_transparent_230
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 119
         width: 16
         height: 16
@@ -4971,7 +4971,7 @@ TextureImporter:
       name: roguelikeChar_transparent_231
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 119
         width: 16
         height: 16
@@ -4992,7 +4992,7 @@ TextureImporter:
       name: roguelikeChar_transparent_232
       rect:
         serializedVersion: 2
-        x: 884
+        x: 885
         y: 119
         width: 16
         height: 16
@@ -5013,7 +5013,7 @@ TextureImporter:
       name: roguelikeChar_transparent_233
       rect:
         serializedVersion: 2
-        x: 901
+        x: 902
         y: 119
         width: 16
         height: 16
@@ -5076,7 +5076,7 @@ TextureImporter:
       name: roguelikeChar_transparent_236
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 102
         width: 16
         height: 16
@@ -5097,7 +5097,7 @@ TextureImporter:
       name: roguelikeChar_transparent_237
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 102
         width: 16
         height: 16
@@ -5118,7 +5118,7 @@ TextureImporter:
       name: roguelikeChar_transparent_238
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 102
         width: 16
         height: 16
@@ -5139,7 +5139,7 @@ TextureImporter:
       name: roguelikeChar_transparent_239
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 102
         width: 16
         height: 16
@@ -5160,7 +5160,7 @@ TextureImporter:
       name: roguelikeChar_transparent_240
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 102
         width: 16
         height: 16
@@ -5181,7 +5181,7 @@ TextureImporter:
       name: roguelikeChar_transparent_241
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 102
         width: 16
         height: 16
@@ -5202,7 +5202,7 @@ TextureImporter:
       name: roguelikeChar_transparent_242
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 102
         width: 16
         height: 16
@@ -5223,7 +5223,7 @@ TextureImporter:
       name: roguelikeChar_transparent_243
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 102
         width: 16
         height: 16
@@ -5244,7 +5244,7 @@ TextureImporter:
       name: roguelikeChar_transparent_244
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 102
         width: 16
         height: 16
@@ -5265,7 +5265,7 @@ TextureImporter:
       name: roguelikeChar_transparent_245
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 102
         width: 16
         height: 16
@@ -5286,7 +5286,7 @@ TextureImporter:
       name: roguelikeChar_transparent_246
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 102
         width: 16
         height: 16
@@ -5307,7 +5307,7 @@ TextureImporter:
       name: roguelikeChar_transparent_247
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 102
         width: 16
         height: 16
@@ -5328,7 +5328,7 @@ TextureImporter:
       name: roguelikeChar_transparent_248
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 102
         width: 16
         height: 16
@@ -5349,7 +5349,7 @@ TextureImporter:
       name: roguelikeChar_transparent_249
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 102
         width: 16
         height: 16
@@ -5370,7 +5370,7 @@ TextureImporter:
       name: roguelikeChar_transparent_250
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 102
         width: 16
         height: 16
@@ -5391,7 +5391,7 @@ TextureImporter:
       name: roguelikeChar_transparent_251
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 102
         width: 16
         height: 16
@@ -5412,7 +5412,7 @@ TextureImporter:
       name: roguelikeChar_transparent_252
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 102
         width: 16
         height: 16
@@ -5433,7 +5433,7 @@ TextureImporter:
       name: roguelikeChar_transparent_253
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 102
         width: 16
         height: 16
@@ -5454,7 +5454,7 @@ TextureImporter:
       name: roguelikeChar_transparent_254
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 102
         width: 16
         height: 16
@@ -5475,7 +5475,7 @@ TextureImporter:
       name: roguelikeChar_transparent_255
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 102
         width: 16
         height: 16
@@ -5496,7 +5496,7 @@ TextureImporter:
       name: roguelikeChar_transparent_256
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 102
         width: 16
         height: 16
@@ -5517,7 +5517,7 @@ TextureImporter:
       name: roguelikeChar_transparent_257
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 102
         width: 16
         height: 16
@@ -5622,7 +5622,7 @@ TextureImporter:
       name: roguelikeChar_transparent_262
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 102
         width: 16
         height: 16
@@ -5643,7 +5643,7 @@ TextureImporter:
       name: roguelikeChar_transparent_263
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 102
         width: 16
         height: 16
@@ -5664,7 +5664,7 @@ TextureImporter:
       name: roguelikeChar_transparent_264
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 102
         width: 16
         height: 16
@@ -5685,7 +5685,7 @@ TextureImporter:
       name: roguelikeChar_transparent_265
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 102
         width: 16
         height: 16
@@ -5706,7 +5706,7 @@ TextureImporter:
       name: roguelikeChar_transparent_266
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 102
         width: 16
         height: 16
@@ -5727,7 +5727,7 @@ TextureImporter:
       name: roguelikeChar_transparent_267
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 102
         width: 16
         height: 16
@@ -5748,7 +5748,7 @@ TextureImporter:
       name: roguelikeChar_transparent_268
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 102
         width: 16
         height: 16
@@ -5769,7 +5769,7 @@ TextureImporter:
       name: roguelikeChar_transparent_269
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 102
         width: 16
         height: 16
@@ -5790,7 +5790,7 @@ TextureImporter:
       name: roguelikeChar_transparent_270
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 102
         width: 16
         height: 16
@@ -5811,7 +5811,7 @@ TextureImporter:
       name: roguelikeChar_transparent_271
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 102
         width: 16
         height: 16
@@ -5832,7 +5832,7 @@ TextureImporter:
       name: roguelikeChar_transparent_272
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 102
         width: 16
         height: 16
@@ -5853,7 +5853,7 @@ TextureImporter:
       name: roguelikeChar_transparent_273
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 102
         width: 16
         height: 16
@@ -5874,7 +5874,7 @@ TextureImporter:
       name: roguelikeChar_transparent_274
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 102
         width: 16
         height: 16
@@ -5895,7 +5895,7 @@ TextureImporter:
       name: roguelikeChar_transparent_275
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 102
         width: 16
         height: 16
@@ -5958,7 +5958,7 @@ TextureImporter:
       name: roguelikeChar_transparent_278
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 85
         width: 16
         height: 16
@@ -5979,7 +5979,7 @@ TextureImporter:
       name: roguelikeChar_transparent_279
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 85
         width: 16
         height: 16
@@ -6000,7 +6000,7 @@ TextureImporter:
       name: roguelikeChar_transparent_280
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 85
         width: 16
         height: 16
@@ -6021,7 +6021,7 @@ TextureImporter:
       name: roguelikeChar_transparent_281
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 85
         width: 16
         height: 16
@@ -6042,7 +6042,7 @@ TextureImporter:
       name: roguelikeChar_transparent_282
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 85
         width: 16
         height: 16
@@ -6063,7 +6063,7 @@ TextureImporter:
       name: roguelikeChar_transparent_283
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 85
         width: 16
         height: 16
@@ -6084,7 +6084,7 @@ TextureImporter:
       name: roguelikeChar_transparent_284
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 85
         width: 16
         height: 16
@@ -6105,7 +6105,7 @@ TextureImporter:
       name: roguelikeChar_transparent_285
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 85
         width: 16
         height: 16
@@ -6126,7 +6126,7 @@ TextureImporter:
       name: roguelikeChar_transparent_286
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 85
         width: 16
         height: 16
@@ -6147,7 +6147,7 @@ TextureImporter:
       name: roguelikeChar_transparent_287
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 85
         width: 16
         height: 16
@@ -6168,7 +6168,7 @@ TextureImporter:
       name: roguelikeChar_transparent_288
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 85
         width: 16
         height: 16
@@ -6189,7 +6189,7 @@ TextureImporter:
       name: roguelikeChar_transparent_289
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 85
         width: 16
         height: 16
@@ -6210,7 +6210,7 @@ TextureImporter:
       name: roguelikeChar_transparent_290
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 85
         width: 16
         height: 16
@@ -6231,7 +6231,7 @@ TextureImporter:
       name: roguelikeChar_transparent_291
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 85
         width: 16
         height: 16
@@ -6252,7 +6252,7 @@ TextureImporter:
       name: roguelikeChar_transparent_292
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 85
         width: 16
         height: 16
@@ -6273,7 +6273,7 @@ TextureImporter:
       name: roguelikeChar_transparent_293
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 85
         width: 16
         height: 16
@@ -6294,7 +6294,7 @@ TextureImporter:
       name: roguelikeChar_transparent_294
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 85
         width: 16
         height: 16
@@ -6315,7 +6315,7 @@ TextureImporter:
       name: roguelikeChar_transparent_295
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 85
         width: 16
         height: 16
@@ -6336,7 +6336,7 @@ TextureImporter:
       name: roguelikeChar_transparent_296
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 85
         width: 16
         height: 16
@@ -6357,7 +6357,7 @@ TextureImporter:
       name: roguelikeChar_transparent_297
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 85
         width: 16
         height: 16
@@ -6378,7 +6378,7 @@ TextureImporter:
       name: roguelikeChar_transparent_298
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 85
         width: 16
         height: 16
@@ -6399,7 +6399,7 @@ TextureImporter:
       name: roguelikeChar_transparent_299
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 85
         width: 16
         height: 16
@@ -6420,7 +6420,7 @@ TextureImporter:
       name: roguelikeChar_transparent_300
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 85
         width: 16
         height: 16
@@ -6441,7 +6441,7 @@ TextureImporter:
       name: roguelikeChar_transparent_301
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 85
         width: 16
         height: 16
@@ -6462,7 +6462,7 @@ TextureImporter:
       name: roguelikeChar_transparent_302
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 85
         width: 16
         height: 16
@@ -6483,7 +6483,7 @@ TextureImporter:
       name: roguelikeChar_transparent_303
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 85
         width: 16
         height: 16
@@ -6504,7 +6504,7 @@ TextureImporter:
       name: roguelikeChar_transparent_304
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 85
         width: 16
         height: 16
@@ -6525,7 +6525,7 @@ TextureImporter:
       name: roguelikeChar_transparent_305
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 85
         width: 16
         height: 16
@@ -6546,7 +6546,7 @@ TextureImporter:
       name: roguelikeChar_transparent_306
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 85
         width: 16
         height: 16
@@ -6567,7 +6567,7 @@ TextureImporter:
       name: roguelikeChar_transparent_307
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 85
         width: 16
         height: 16
@@ -6588,7 +6588,7 @@ TextureImporter:
       name: roguelikeChar_transparent_308
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 85
         width: 16
         height: 16
@@ -6609,7 +6609,7 @@ TextureImporter:
       name: roguelikeChar_transparent_309
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 85
         width: 16
         height: 16
@@ -6630,7 +6630,7 @@ TextureImporter:
       name: roguelikeChar_transparent_310
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 85
         width: 16
         height: 16
@@ -6651,7 +6651,7 @@ TextureImporter:
       name: roguelikeChar_transparent_311
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 85
         width: 16
         height: 16
@@ -6672,7 +6672,7 @@ TextureImporter:
       name: roguelikeChar_transparent_312
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 85
         width: 16
         height: 16
@@ -6693,7 +6693,7 @@ TextureImporter:
       name: roguelikeChar_transparent_313
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 85
         width: 16
         height: 16
@@ -6714,7 +6714,7 @@ TextureImporter:
       name: roguelikeChar_transparent_314
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 85
         width: 16
         height: 16
@@ -6735,7 +6735,7 @@ TextureImporter:
       name: roguelikeChar_transparent_315
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 85
         width: 16
         height: 16
@@ -6756,7 +6756,7 @@ TextureImporter:
       name: roguelikeChar_transparent_316
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 85
         width: 16
         height: 16
@@ -6777,7 +6777,7 @@ TextureImporter:
       name: roguelikeChar_transparent_317
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 85
         width: 16
         height: 16
@@ -6798,7 +6798,7 @@ TextureImporter:
       name: roguelikeChar_transparent_318
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 85
         width: 16
         height: 16
@@ -6819,7 +6819,7 @@ TextureImporter:
       name: roguelikeChar_transparent_319
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 85
         width: 16
         height: 16
@@ -6840,7 +6840,7 @@ TextureImporter:
       name: roguelikeChar_transparent_320
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 85
         width: 16
         height: 16
@@ -6861,7 +6861,7 @@ TextureImporter:
       name: roguelikeChar_transparent_321
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 85
         width: 16
         height: 16
@@ -6924,7 +6924,7 @@ TextureImporter:
       name: roguelikeChar_transparent_324
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 68
         width: 16
         height: 16
@@ -6945,7 +6945,7 @@ TextureImporter:
       name: roguelikeChar_transparent_325
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 68
         width: 16
         height: 16
@@ -6966,7 +6966,7 @@ TextureImporter:
       name: roguelikeChar_transparent_326
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 68
         width: 16
         height: 16
@@ -6987,7 +6987,7 @@ TextureImporter:
       name: roguelikeChar_transparent_327
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 68
         width: 16
         height: 16
@@ -7008,7 +7008,7 @@ TextureImporter:
       name: roguelikeChar_transparent_328
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 68
         width: 16
         height: 16
@@ -7029,7 +7029,7 @@ TextureImporter:
       name: roguelikeChar_transparent_329
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 68
         width: 16
         height: 16
@@ -7050,7 +7050,7 @@ TextureImporter:
       name: roguelikeChar_transparent_330
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 68
         width: 16
         height: 16
@@ -7071,7 +7071,7 @@ TextureImporter:
       name: roguelikeChar_transparent_331
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 68
         width: 16
         height: 16
@@ -7092,7 +7092,7 @@ TextureImporter:
       name: roguelikeChar_transparent_332
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 68
         width: 16
         height: 16
@@ -7113,7 +7113,7 @@ TextureImporter:
       name: roguelikeChar_transparent_333
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 68
         width: 16
         height: 16
@@ -7134,7 +7134,7 @@ TextureImporter:
       name: roguelikeChar_transparent_334
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 68
         width: 16
         height: 16
@@ -7155,7 +7155,7 @@ TextureImporter:
       name: roguelikeChar_transparent_335
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 68
         width: 16
         height: 16
@@ -7176,7 +7176,7 @@ TextureImporter:
       name: roguelikeChar_transparent_336
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 68
         width: 16
         height: 16
@@ -7197,7 +7197,7 @@ TextureImporter:
       name: roguelikeChar_transparent_337
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 68
         width: 16
         height: 16
@@ -7218,7 +7218,7 @@ TextureImporter:
       name: roguelikeChar_transparent_338
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 68
         width: 16
         height: 16
@@ -7239,7 +7239,7 @@ TextureImporter:
       name: roguelikeChar_transparent_339
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 68
         width: 16
         height: 16
@@ -7260,7 +7260,7 @@ TextureImporter:
       name: roguelikeChar_transparent_340
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 68
         width: 16
         height: 16
@@ -7281,7 +7281,7 @@ TextureImporter:
       name: roguelikeChar_transparent_341
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 68
         width: 16
         height: 16
@@ -7302,7 +7302,7 @@ TextureImporter:
       name: roguelikeChar_transparent_342
       rect:
         serializedVersion: 2
-        x: 391
+        x: 392
         y: 68
         width: 16
         height: 16
@@ -7323,7 +7323,7 @@ TextureImporter:
       name: roguelikeChar_transparent_343
       rect:
         serializedVersion: 2
-        x: 408
+        x: 409
         y: 68
         width: 16
         height: 16
@@ -7344,7 +7344,7 @@ TextureImporter:
       name: roguelikeChar_transparent_344
       rect:
         serializedVersion: 2
-        x: 425
+        x: 426
         y: 68
         width: 16
         height: 16
@@ -7365,7 +7365,7 @@ TextureImporter:
       name: roguelikeChar_transparent_345
       rect:
         serializedVersion: 2
-        x: 442
+        x: 443
         y: 68
         width: 16
         height: 16
@@ -7386,7 +7386,7 @@ TextureImporter:
       name: roguelikeChar_transparent_346
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 68
         width: 16
         height: 16
@@ -7407,7 +7407,7 @@ TextureImporter:
       name: roguelikeChar_transparent_347
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 68
         width: 16
         height: 16
@@ -7428,7 +7428,7 @@ TextureImporter:
       name: roguelikeChar_transparent_348
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 68
         width: 16
         height: 16
@@ -7449,7 +7449,7 @@ TextureImporter:
       name: roguelikeChar_transparent_349
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 68
         width: 16
         height: 16
@@ -7470,7 +7470,7 @@ TextureImporter:
       name: roguelikeChar_transparent_350
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 68
         width: 16
         height: 16
@@ -7491,7 +7491,7 @@ TextureImporter:
       name: roguelikeChar_transparent_351
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 68
         width: 16
         height: 16
@@ -7512,7 +7512,7 @@ TextureImporter:
       name: roguelikeChar_transparent_352
       rect:
         serializedVersion: 2
-        x: 595
+        x: 596
         y: 68
         width: 16
         height: 16
@@ -7533,7 +7533,7 @@ TextureImporter:
       name: roguelikeChar_transparent_353
       rect:
         serializedVersion: 2
-        x: 612
+        x: 613
         y: 68
         width: 16
         height: 16
@@ -7554,7 +7554,7 @@ TextureImporter:
       name: roguelikeChar_transparent_354
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 68
         width: 16
         height: 16
@@ -7575,7 +7575,7 @@ TextureImporter:
       name: roguelikeChar_transparent_355
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 68
         width: 16
         height: 16
@@ -7596,7 +7596,7 @@ TextureImporter:
       name: roguelikeChar_transparent_356
       rect:
         serializedVersion: 2
-        x: 663
+        x: 664
         y: 68
         width: 16
         height: 16
@@ -7617,7 +7617,7 @@ TextureImporter:
       name: roguelikeChar_transparent_357
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 68
         width: 16
         height: 16
@@ -7638,7 +7638,7 @@ TextureImporter:
       name: roguelikeChar_transparent_358
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 68
         width: 16
         height: 16
@@ -7659,7 +7659,7 @@ TextureImporter:
       name: roguelikeChar_transparent_359
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 68
         width: 16
         height: 16
@@ -7680,7 +7680,7 @@ TextureImporter:
       name: roguelikeChar_transparent_360
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 68
         width: 16
         height: 16
@@ -7701,7 +7701,7 @@ TextureImporter:
       name: roguelikeChar_transparent_361
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 68
         width: 16
         height: 16
@@ -7722,7 +7722,7 @@ TextureImporter:
       name: roguelikeChar_transparent_362
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 68
         width: 16
         height: 16
@@ -7743,7 +7743,7 @@ TextureImporter:
       name: roguelikeChar_transparent_363
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 68
         width: 16
         height: 16
@@ -7764,7 +7764,7 @@ TextureImporter:
       name: roguelikeChar_transparent_364
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 68
         width: 16
         height: 16
@@ -7785,7 +7785,7 @@ TextureImporter:
       name: roguelikeChar_transparent_365
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 68
         width: 16
         height: 16
@@ -7806,7 +7806,7 @@ TextureImporter:
       name: roguelikeChar_transparent_366
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 68
         width: 16
         height: 16
@@ -7827,7 +7827,7 @@ TextureImporter:
       name: roguelikeChar_transparent_367
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 68
         width: 16
         height: 16
@@ -7890,7 +7890,7 @@ TextureImporter:
       name: roguelikeChar_transparent_370
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 51
         width: 16
         height: 16
@@ -7911,7 +7911,7 @@ TextureImporter:
       name: roguelikeChar_transparent_371
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 51
         width: 16
         height: 16
@@ -7932,7 +7932,7 @@ TextureImporter:
       name: roguelikeChar_transparent_372
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 51
         width: 16
         height: 16
@@ -7953,7 +7953,7 @@ TextureImporter:
       name: roguelikeChar_transparent_373
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 51
         width: 16
         height: 16
@@ -7974,7 +7974,7 @@ TextureImporter:
       name: roguelikeChar_transparent_374
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 51
         width: 16
         height: 16
@@ -7995,7 +7995,7 @@ TextureImporter:
       name: roguelikeChar_transparent_375
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 51
         width: 16
         height: 16
@@ -8016,7 +8016,7 @@ TextureImporter:
       name: roguelikeChar_transparent_376
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 51
         width: 16
         height: 16
@@ -8037,7 +8037,7 @@ TextureImporter:
       name: roguelikeChar_transparent_377
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 51
         width: 16
         height: 16
@@ -8058,7 +8058,7 @@ TextureImporter:
       name: roguelikeChar_transparent_378
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 51
         width: 16
         height: 16
@@ -8079,7 +8079,7 @@ TextureImporter:
       name: roguelikeChar_transparent_379
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 51
         width: 16
         height: 16
@@ -8100,7 +8100,7 @@ TextureImporter:
       name: roguelikeChar_transparent_380
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 51
         width: 16
         height: 16
@@ -8121,7 +8121,7 @@ TextureImporter:
       name: roguelikeChar_transparent_381
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 51
         width: 16
         height: 16
@@ -8142,7 +8142,7 @@ TextureImporter:
       name: roguelikeChar_transparent_382
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 51
         width: 16
         height: 16
@@ -8163,7 +8163,7 @@ TextureImporter:
       name: roguelikeChar_transparent_383
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 51
         width: 16
         height: 16
@@ -8184,7 +8184,7 @@ TextureImporter:
       name: roguelikeChar_transparent_384
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 51
         width: 16
         height: 16
@@ -8205,7 +8205,7 @@ TextureImporter:
       name: roguelikeChar_transparent_385
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 51
         width: 16
         height: 16
@@ -8226,7 +8226,7 @@ TextureImporter:
       name: roguelikeChar_transparent_386
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 51
         width: 16
         height: 16
@@ -8247,7 +8247,7 @@ TextureImporter:
       name: roguelikeChar_transparent_387
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 51
         width: 16
         height: 16
@@ -8268,7 +8268,7 @@ TextureImporter:
       name: roguelikeChar_transparent_388
       rect:
         serializedVersion: 2
-        x: 476
+        x: 477
         y: 51
         width: 16
         height: 16
@@ -8289,7 +8289,7 @@ TextureImporter:
       name: roguelikeChar_transparent_389
       rect:
         serializedVersion: 2
-        x: 493
+        x: 494
         y: 51
         width: 16
         height: 16
@@ -8310,7 +8310,7 @@ TextureImporter:
       name: roguelikeChar_transparent_390
       rect:
         serializedVersion: 2
-        x: 510
+        x: 511
         y: 51
         width: 16
         height: 16
@@ -8331,7 +8331,7 @@ TextureImporter:
       name: roguelikeChar_transparent_391
       rect:
         serializedVersion: 2
-        x: 527
+        x: 528
         y: 51
         width: 16
         height: 16
@@ -8352,7 +8352,7 @@ TextureImporter:
       name: roguelikeChar_transparent_392
       rect:
         serializedVersion: 2
-        x: 561
+        x: 562
         y: 51
         width: 16
         height: 16
@@ -8373,7 +8373,7 @@ TextureImporter:
       name: roguelikeChar_transparent_393
       rect:
         serializedVersion: 2
-        x: 578
+        x: 579
         y: 51
         width: 16
         height: 16
@@ -8394,7 +8394,7 @@ TextureImporter:
       name: roguelikeChar_transparent_394
       rect:
         serializedVersion: 2
-        x: 629
+        x: 630
         y: 51
         width: 16
         height: 16
@@ -8415,7 +8415,7 @@ TextureImporter:
       name: roguelikeChar_transparent_395
       rect:
         serializedVersion: 2
-        x: 646
+        x: 647
         y: 51
         width: 16
         height: 16
@@ -8436,7 +8436,7 @@ TextureImporter:
       name: roguelikeChar_transparent_396
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 51
         width: 16
         height: 16
@@ -8457,7 +8457,7 @@ TextureImporter:
       name: roguelikeChar_transparent_397
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 51
         width: 16
         height: 16
@@ -8478,7 +8478,7 @@ TextureImporter:
       name: roguelikeChar_transparent_398
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 51
         width: 16
         height: 16
@@ -8499,7 +8499,7 @@ TextureImporter:
       name: roguelikeChar_transparent_399
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 51
         width: 16
         height: 16
@@ -8520,7 +8520,7 @@ TextureImporter:
       name: roguelikeChar_transparent_400
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 51
         width: 16
         height: 16
@@ -8541,7 +8541,7 @@ TextureImporter:
       name: roguelikeChar_transparent_401
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 51
         width: 16
         height: 16
@@ -8562,7 +8562,7 @@ TextureImporter:
       name: roguelikeChar_transparent_402
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 51
         width: 16
         height: 16
@@ -8583,7 +8583,7 @@ TextureImporter:
       name: roguelikeChar_transparent_403
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 51
         width: 16
         height: 16
@@ -8604,7 +8604,7 @@ TextureImporter:
       name: roguelikeChar_transparent_404
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 51
         width: 16
         height: 16
@@ -8625,7 +8625,7 @@ TextureImporter:
       name: roguelikeChar_transparent_405
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 51
         width: 16
         height: 16
@@ -8688,7 +8688,7 @@ TextureImporter:
       name: roguelikeChar_transparent_408
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 34
         width: 16
         height: 16
@@ -8709,7 +8709,7 @@ TextureImporter:
       name: roguelikeChar_transparent_409
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 34
         width: 16
         height: 16
@@ -8730,7 +8730,7 @@ TextureImporter:
       name: roguelikeChar_transparent_410
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 34
         width: 16
         height: 16
@@ -8751,7 +8751,7 @@ TextureImporter:
       name: roguelikeChar_transparent_411
       rect:
         serializedVersion: 2
-        x: 119
+        x: 120
         y: 34
         width: 16
         height: 16
@@ -8772,7 +8772,7 @@ TextureImporter:
       name: roguelikeChar_transparent_412
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 34
         width: 16
         height: 16
@@ -8793,7 +8793,7 @@ TextureImporter:
       name: roguelikeChar_transparent_413
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 34
         width: 16
         height: 16
@@ -8814,7 +8814,7 @@ TextureImporter:
       name: roguelikeChar_transparent_414
       rect:
         serializedVersion: 2
-        x: 170
+        x: 171
         y: 34
         width: 16
         height: 16
@@ -8835,7 +8835,7 @@ TextureImporter:
       name: roguelikeChar_transparent_415
       rect:
         serializedVersion: 2
-        x: 187
+        x: 188
         y: 34
         width: 16
         height: 16
@@ -8856,7 +8856,7 @@ TextureImporter:
       name: roguelikeChar_transparent_416
       rect:
         serializedVersion: 2
-        x: 204
+        x: 205
         y: 34
         width: 16
         height: 16
@@ -8877,7 +8877,7 @@ TextureImporter:
       name: roguelikeChar_transparent_417
       rect:
         serializedVersion: 2
-        x: 221
+        x: 222
         y: 34
         width: 16
         height: 16
@@ -8898,7 +8898,7 @@ TextureImporter:
       name: roguelikeChar_transparent_418
       rect:
         serializedVersion: 2
-        x: 238
+        x: 239
         y: 34
         width: 16
         height: 16
@@ -8919,7 +8919,7 @@ TextureImporter:
       name: roguelikeChar_transparent_419
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 34
         width: 16
         height: 16
@@ -8940,7 +8940,7 @@ TextureImporter:
       name: roguelikeChar_transparent_420
       rect:
         serializedVersion: 2
-        x: 272
+        x: 273
         y: 34
         width: 16
         height: 16
@@ -8961,7 +8961,7 @@ TextureImporter:
       name: roguelikeChar_transparent_421
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 34
         width: 16
         height: 16
@@ -8982,7 +8982,7 @@ TextureImporter:
       name: roguelikeChar_transparent_422
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 34
         width: 16
         height: 16
@@ -9003,7 +9003,7 @@ TextureImporter:
       name: roguelikeChar_transparent_423
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 34
         width: 16
         height: 16
@@ -9024,7 +9024,7 @@ TextureImporter:
       name: roguelikeChar_transparent_424
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 34
         width: 16
         height: 16
@@ -9045,7 +9045,7 @@ TextureImporter:
       name: roguelikeChar_transparent_425
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 34
         width: 16
         height: 16
@@ -9066,7 +9066,7 @@ TextureImporter:
       name: roguelikeChar_transparent_426
       rect:
         serializedVersion: 2
-        x: 714
+        x: 715
         y: 34
         width: 16
         height: 16
@@ -9087,7 +9087,7 @@ TextureImporter:
       name: roguelikeChar_transparent_427
       rect:
         serializedVersion: 2
-        x: 731
+        x: 732
         y: 34
         width: 16
         height: 16
@@ -9108,7 +9108,7 @@ TextureImporter:
       name: roguelikeChar_transparent_428
       rect:
         serializedVersion: 2
-        x: 748
+        x: 749
         y: 34
         width: 16
         height: 16
@@ -9129,7 +9129,7 @@ TextureImporter:
       name: roguelikeChar_transparent_429
       rect:
         serializedVersion: 2
-        x: 765
+        x: 766
         y: 34
         width: 16
         height: 16
@@ -9150,7 +9150,7 @@ TextureImporter:
       name: roguelikeChar_transparent_430
       rect:
         serializedVersion: 2
-        x: 782
+        x: 783
         y: 34
         width: 16
         height: 16
@@ -9171,7 +9171,7 @@ TextureImporter:
       name: roguelikeChar_transparent_431
       rect:
         serializedVersion: 2
-        x: 799
+        x: 800
         y: 34
         width: 16
         height: 16
@@ -9192,7 +9192,7 @@ TextureImporter:
       name: roguelikeChar_transparent_432
       rect:
         serializedVersion: 2
-        x: 816
+        x: 817
         y: 34
         width: 16
         height: 16
@@ -9213,7 +9213,7 @@ TextureImporter:
       name: roguelikeChar_transparent_433
       rect:
         serializedVersion: 2
-        x: 833
+        x: 834
         y: 34
         width: 16
         height: 16
@@ -9234,7 +9234,7 @@ TextureImporter:
       name: roguelikeChar_transparent_434
       rect:
         serializedVersion: 2
-        x: 850
+        x: 851
         y: 34
         width: 16
         height: 16
@@ -9255,7 +9255,7 @@ TextureImporter:
       name: roguelikeChar_transparent_435
       rect:
         serializedVersion: 2
-        x: 867
+        x: 868
         y: 34
         width: 16
         height: 16
@@ -9318,7 +9318,7 @@ TextureImporter:
       name: roguelikeChar_transparent_438
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 17
         width: 16
         height: 16
@@ -9339,7 +9339,7 @@ TextureImporter:
       name: roguelikeChar_transparent_439
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 17
         width: 16
         height: 16
@@ -9360,7 +9360,7 @@ TextureImporter:
       name: roguelikeChar_transparent_440
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 17
         width: 16
         height: 16
@@ -9381,7 +9381,7 @@ TextureImporter:
       name: roguelikeChar_transparent_441
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 17
         width: 16
         height: 16
@@ -9444,7 +9444,7 @@ TextureImporter:
       name: roguelikeChar_transparent_444
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 0
         width: 16
         height: 16
@@ -9465,7 +9465,7 @@ TextureImporter:
       name: roguelikeChar_transparent_445
       rect:
         serializedVersion: 2
-        x: 340
+        x: 341
         y: 0
         width: 16
         height: 16
@@ -9486,7 +9486,7 @@ TextureImporter:
       name: roguelikeChar_transparent_446
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 0
         width: 16
         height: 16
@@ -9507,7 +9507,7 @@ TextureImporter:
       name: roguelikeChar_transparent_447
       rect:
         serializedVersion: 2
-        x: 374
+        x: 375
         y: 0
         width: 16
         height: 16
@@ -9840,6 +9840,7 @@ TextureImporter:
       roguelikeChar_transparent_0: -1712426244
       roguelikeChar_transparent_10: 1672414729
       roguelikeChar_transparent_342: 1410821218
+      roguelikeChar_transparent_448: 1083468955
       roguelikeChar_transparent_96: -1047437129
       roguelikeChar_transparent_295: 1942632662
       roguelikeChar_transparent_444: -1569876700
