@@ -11,6 +11,7 @@ namespace Managers
     {
         public static Center_Manager Instance;
         public Authentication authManager;
+        public SaveLoadManager saveLoadManager;
         public Dictionary<string, object> userData;
         ListenerRegistration userDataListener;
         FirebaseFirestore db;
@@ -21,6 +22,7 @@ namespace Managers
             db = FirebaseFirestore.DefaultInstance;
             Debug.Log("uh");
             authManager = GetComponent<Authentication>();
+            saveLoadManager = GetComponent<SaveLoadManager>();
 
             setup = true;
         }

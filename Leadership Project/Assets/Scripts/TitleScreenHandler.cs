@@ -8,6 +8,11 @@ public class TitleScreenHandler : MonoBehaviour
 {
     public TMP_InputField friend_search;
 
+    void Start()
+    {
+        Center_Manager.Instance.saveLoadManager.ListenForUserData();
+    }
+
     public void LogoutButton()
     {
         Center_Manager.Instance.authManager.Logout();

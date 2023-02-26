@@ -105,6 +105,7 @@ namespace Managers
                 Dictionary<string, object> initialUserData = new Dictionary<string, object>
                 {
                     {"level", 1},
+                    {"profile", "0 0 0 -1 -1 -1 -1 -1"}
                 };
 
                 docRef.SetAsync(initialUserData).ContinueWithOnMainThread(task => {
