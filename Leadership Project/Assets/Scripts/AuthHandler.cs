@@ -15,6 +15,7 @@ public class AuthHandler : MonoBehaviour
 
     [Header("Register")]
     public TMP_InputField emailRegisterField;
+    public TMP_InputField usernameRegisterField;
     public TMP_InputField passwordRegisterField;
     public TMP_InputField confirmPasswordRegisterField;
 
@@ -39,7 +40,7 @@ public class AuthHandler : MonoBehaviour
         {
             Debug.Log("Attempting to create user...");
             Authentication auth = Center_Manager.Instance.authManager;
-            StartCoroutine(auth.Register(emailRegisterField.text, passwordRegisterField.text));
+            StartCoroutine(auth.Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
         }
         else
         {

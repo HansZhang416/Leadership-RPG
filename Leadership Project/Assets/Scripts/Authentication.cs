@@ -85,11 +85,11 @@ namespace Managers
                 user = loginTask.Result;
                 Center_Manager.Instance.SetupListener(user.UserId);
                 Debug.Log("Login successful!");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
 
-        public IEnumerator Register(string email, string password)
+        public IEnumerator Register(string email, string password, string username)
         {
             Debug.Log("Register task pending...");
             var registerTask = auth.CreateUserWithEmailAndPasswordAsync(email, password);
@@ -100,6 +100,30 @@ namespace Managers
             {   
                 user = registerTask.Result;
                 Debug.Log($"User {user.UserId} created successfully!");
+
+                // SET USERNAME
+                // Firebase.Auth.FirebaseUser user = auth.CurrentUser;
+                if (user != null) {
+                    Firebase.Auth.UserProfile profile = new Firebase.Auth.UserProfile {
+                        DisplayName = username,
+                        // PhotoUrl = new System.Uri("https://example.com/jane-q-user/profile.jpg"),
+                    };
+                    user.UpdateUserProfileAsync(profile).ContinueWith(task => {
+                        if (task.IsCanceled) {
+                        Debug.LogError("UpdateUserProfileAsync was canceled.");
+                        return;
+                        }
+                        if (task.IsFaulted) {
+                        Debug.LogError("UpdateUserProfileAsync encountered an error: " + task.Exception);
+                        return;
+                        }
+
+                        Debug.Log("User profile updated successfully.");
+                    });
+                }
+
+                // =============
+
                 DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
 
                 Dictionary<string, object> initialUserData = new Dictionary<string, object>
@@ -109,7 +133,7 @@ namespace Managers
                 };
 
                 docRef.SetAsync(initialUserData).ContinueWithOnMainThread(task => {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 });
             }
         }
