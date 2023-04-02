@@ -5,11 +5,6 @@ using UnityEngine;
 public class Slash : MonoBehaviour
 {
     public string origin;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -35,12 +30,16 @@ public class Slash : MonoBehaviour
     // collider is not being detected upon collision with non-trigger objects
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(gameObject.name);
-        Debug.Log(collision.gameObject.name);
+        // Debug.Log(gameObject.name);
+        // Debug.Log(collision.gameObject.name);
         // if I hit an enemy, damage them
         if (origin == "player" && collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
+        }
+        else if (origin == "enemy" && collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerCombat>().TakeDamage(1);
         }
     }
 
