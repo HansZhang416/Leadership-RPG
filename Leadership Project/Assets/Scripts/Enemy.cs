@@ -17,6 +17,11 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else
+        {
+            //play hurt animation
+            
+        }
     }
 
     // Update is called once per frame
