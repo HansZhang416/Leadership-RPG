@@ -1,34 +1,100 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Stats")]
     public int health = 5;
+    public float cooldown = 1f;
+    public float invincibilityTime = 1f;
+    float currentCooldown = 0f;
+    float currentInvincibilityTime = 0f;
 
+    [Header("Attack")]
     public GameObject meleeAttack;
     public bool canAttack = true;
 
+    [Header("UI")]
+    public GameObject gameOverUI;
 
 
     public void TakeDamage(int damage)
     {
+        if (currentInvincibilityTime > 0)
+        {
+            return;
+        }
+
         Debug.Log("ow");
         health -= damage;
+        currentInvincibilityTime = invincibilityTime;
+
         if (health <= 0)
         {
-            // Destroy(gameObject);
+            
             // TODO: handle gameover
+            gameOverUI.SetActive(true);
+            gameObject.SetActive(false);
+
         }
+        else
+        {
+            // make the character sprite blink red
+            StartCoroutine(BlinkRed());
+        }
+    }
+
+    IEnumerator BlinkRed()
+    {
+        // get the sprite renderer component
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        // store the original color
+        Color originalColor = spriteRenderer.color;
+        // set the color to red
+        spriteRenderer.color = Color.red;
+        // wait for 0.1 seconds
+        yield return new WaitForSeconds(0.1f);
+        // set the color back to the original color
+        spriteRenderer.color = originalColor;
+    }
+
+    public void Respawn()
+    {
+        health = 5;
+        gameObject.SetActive(true);
+        gameOverUI.SetActive(false);
+        gameObject.transform.position = new Vector3(0.5f, 0.5f, 0);
+    }
+
+    public void BackToMenu()
+    {
+        gameOverUI.SetActive(false);
+        gameObject.SetActive(false);
+        //go back to main menu
+        SceneManager.LoadScene(1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        // detect a mouse click and determine if it happened to the left, right, top, or bottom of this object
-        if (Input.GetMouseButtonDown(0) && canAttack)
+        // if cooldown is not zero, reduce it by the time since the last frame
+        if (currentCooldown > 0)
         {
+            currentCooldown -= Time.deltaTime;
+        }
+
+        if (currentInvincibilityTime > 0)
+        {
+            currentInvincibilityTime -= Time.deltaTime;
+        }
+
+        // detect a mouse click and determine if it happened to the left, right, top, or bottom of this object
+        if (Input.GetMouseButtonDown(0) && canAttack && currentCooldown <= 0)
+        {
+            currentCooldown = cooldown;
             // get the mouse position in world space
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             // get the direction from this object to the mouse position

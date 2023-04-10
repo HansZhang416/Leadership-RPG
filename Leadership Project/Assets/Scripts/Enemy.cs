@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class Enemy : MonoBehaviour
 {
     public GameObject player;
     public GameObject meleeAttack;
+    public AIDestinationSetter destinationSetter;
 
     public int health = 3;
 
@@ -20,14 +22,48 @@ public class Enemy : MonoBehaviour
         else
         {
             //play hurt animation
-            
+            StartCoroutine(BlinkRed());
+        }
+    }
+
+    IEnumerator BlinkRed()
+    {
+        // get the sprite renderer component
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        // store the original color
+        Color originalColor = spriteRenderer.color;
+        // set the color to red
+        spriteRenderer.color = Color.red;
+        // wait for 0.1 seconds
+        yield return new WaitForSeconds(0.1f);
+        // set the color back to the original color
+        spriteRenderer.color = originalColor;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Player has entered the trigger");
+            player = other.gameObject;
+            destinationSetter.target = player.transform;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Player has exited the trigger");
+            player = null;
+            destinationSetter.target = null;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, player.transform.position) < 2f)
+        if (player != null && Vector3.Distance(transform.position, player.transform.position) < 2f)
         {
             Vector3 direction = player.transform.position - transform.position;
 
