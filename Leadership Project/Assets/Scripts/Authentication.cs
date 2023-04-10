@@ -129,7 +129,9 @@ namespace Managers
                 Dictionary<string, object> initialUserData = new Dictionary<string, object>
                 {
                     {"level", 1},
-                    {"profile", "0 0 0 -1 -1 -1 -1 -1"}
+                    {"profile", "0 0 0 -1 -1 -1 -1 -1"},
+                    {"currency", 0},
+                    // {"friends", new List<object>() { }},
                 };
 
                 docRef.SetAsync(initialUserData).ContinueWithOnMainThread(task => {
@@ -157,6 +159,18 @@ namespace Managers
                 friendRef.UpdateAsync(theirFriends);
             });
 
+        }
+
+        public void AddCurrency(int amount)
+        {
+            DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+
+            Dictionary<string, object> myCurrency = new Dictionary<string, object>
+            {
+                {"currency", FieldValue.Increment(amount)},
+            };
+
+            docRef.UpdateAsync(myCurrency);
         }
 
         public void Logout()

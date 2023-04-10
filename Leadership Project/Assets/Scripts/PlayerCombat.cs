@@ -8,6 +8,7 @@ public class PlayerCombat : MonoBehaviour
     public int health = 5;
 
     public GameObject meleeAttack;
+    public bool canAttack = true;
 
 
 
@@ -26,7 +27,7 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         // detect a mouse click and determine if it happened to the left, right, top, or bottom of this object
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && canAttack)
         {
             // get the mouse position in world space
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
