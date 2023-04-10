@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class NPC : MonoBehaviour
 {
     public GameObject indicator;
+    public TextMeshProUGUI responseText;
     public enum DialogueType { General, Quiz };
     public DialogueType dialogueType;
     public GameObject generalDialogue;
@@ -26,6 +28,7 @@ public class NPC : MonoBehaviour
             {
                 Debug.Log("Player has pressed E");
                 indicator.SetActive(false);
+                responseText.text = "";
                 if (dialogueType == DialogueType.General)
                 {
                     generalDialogue.SetActive(true);
@@ -46,6 +49,7 @@ public class NPC : MonoBehaviour
         {
             Debug.Log("Player has entered the trigger");
             indicator.SetActive(true);
+            responseText.text = "";
             playerInRange = true;
             player = other.gameObject;
         }

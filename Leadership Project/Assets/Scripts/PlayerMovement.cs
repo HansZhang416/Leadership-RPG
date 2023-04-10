@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Transform cameraPos;
     public float speed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;
@@ -12,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        cameraPos.position = new Vector3(transform.position.x, transform.position.y, -10);
+
         if (canMove)
         {
             movement.x = Input.GetAxisRaw("Horizontal");

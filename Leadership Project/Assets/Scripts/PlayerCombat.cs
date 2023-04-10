@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Stats")]
+    public int maxHealth = 5;
     public int health = 5;
     public float cooldown = 1f;
     public float invincibilityTime = 1f;
@@ -19,6 +20,7 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("UI")]
     public GameObject gameOverUI;
+    public Transform healthBar;
 
 
     public void TakeDamage(int damage)
@@ -63,7 +65,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Respawn()
     {
-        health = 5;
+        health = maxHealth;
         gameObject.SetActive(true);
         gameOverUI.SetActive(false);
         gameObject.transform.position = new Vector3(0.5f, 0.5f, 0);
@@ -144,6 +146,18 @@ public class PlayerCombat : MonoBehaviour
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0, -0.5f, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 270);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
+            }
+        }
+
+        for (int i = 0; i < maxHealth; i++)
+        {
+            if (i >= health)
+            {
+                healthBar.GetChild(i).gameObject.SetActive(false);
+            }
+            else
+            {
+                healthBar.GetChild(i).gameObject.SetActive(true);
             }
         }
     }

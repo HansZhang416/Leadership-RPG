@@ -52,12 +52,18 @@ public class DialogQuiz : MonoBehaviour
             Debug.Log("Correct!");
             speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
             speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
-            Center_Manager.Instance.authManager.AddCurrency(reward);
+            speaker.GetComponent<NPC>().responseText.text = "Correct!";
+            if (Center_Manager.Instance != null) Center_Manager.Instance.authManager.AddCurrency(reward);
             gameObject.SetActive(false);
         }
         else
         {
             Debug.Log("Wrong!");
+            speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
+            speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
+            speaker.GetComponent<NPC>().responseText.text = "Wrong!";
+            speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().TakeDamage(1);
+            gameObject.SetActive(false);
         }
     }
 }
