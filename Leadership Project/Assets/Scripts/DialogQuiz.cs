@@ -33,9 +33,29 @@ public class DialogQuiz : MonoBehaviour
     void Start()
     {
         questionText.text = question;
-        for (int i = 0; i < answers.Count; i++)
+        for (int i = 0; i < 4; i++)
         {
-            choices.GetChild(i).GetChild(1).GetComponent<TextMeshProUGUI>().text = answers[i];
+            if (i < answers.Count)
+            {
+                choices.GetChild(i).gameObject.SetActive(true);
+                choices.GetChild(i).GetChild(1).GetComponent<TextMeshProUGUI>().text = answers[i];
+            }
+            else
+            {
+                choices.GetChild(i).gameObject.SetActive(false);
+            }
+            
+            // if (questionType == QuestionType.TrueFalse)
+            // {
+            //     if (i == 0)
+            //     {
+            //         choices.GetChild(i).GetChild(0).GetComponent<TextMeshProUGUI>().text = "T";
+            //     }
+            //     else if (i == 1)
+            //     {
+            //         choices.GetChild(i).GetChild(0).GetComponent<TextMeshProUGUI>().text = "F";
+            //     }
+            // }
         }
     }
 
