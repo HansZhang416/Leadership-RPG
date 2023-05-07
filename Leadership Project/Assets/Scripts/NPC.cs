@@ -11,6 +11,9 @@ public class NPC : MonoBehaviour
     public DialogueType dialogueType;
     public GameObject generalDialogue;
     public GameObject quizDialogue;
+
+    public Transform followupQuestions;
+
     [HideInInspector] public GameObject player;
     bool playerInRange;
     // Start is called before the first frame update

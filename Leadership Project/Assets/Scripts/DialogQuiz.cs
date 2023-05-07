@@ -7,6 +7,8 @@ using TMPro;
 public class DialogQuiz : MonoBehaviour
 {
     public GameObject speaker;
+    public bool iAmLastQuestion;
+    public int questionIdx = -1;
     [Header("Quiz Content")]
     public int reward;
 
@@ -23,6 +25,7 @@ public class DialogQuiz : MonoBehaviour
     public int answer;
     [TextArea(3, 10)]
     public List<string> answers;
+
     public Transform choices;
 
     [Header("Quiz UI")]
@@ -70,11 +73,19 @@ public class DialogQuiz : MonoBehaviour
         if (choiceIdx == answer)
         {
             Debug.Log("Correct!");
-            speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
-            speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
-            speaker.GetComponent<NPC>().responseText.text = "Correct!";
-            if (Center_Manager.Instance != null) Center_Manager.Instance.authManager.AddCurrency(reward);
             gameObject.SetActive(false);
+            if (iAmLastQuestion)
+            {
+                speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
+                speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
+                speaker.GetComponent<NPC>().responseText.text = "Correct!";
+                if (Center_Manager.Instance != null) Center_Manager.Instance.authManager.AddCurrency(reward);
+            }
+            else
+            {
+                Transform followupQuestions = speaker.GetComponent<NPC>().followupQuestions;
+                followupQuestions.GetChild(questionIdx + 1).gameObject.SetActive(true);
+            }
         }
         else
         {
