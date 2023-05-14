@@ -5,6 +5,8 @@ using TMPro;
 
 public class Conversation : MonoBehaviour
 {
+    public DialogeSpeaking container;
+    public bool isLastConvoLine;
     [TextArea(3, 10)]
     public string startingLine;
 
@@ -39,6 +41,15 @@ public class Conversation : MonoBehaviour
 
     public void Choice(int choiceIdx)
     {
-        
+        container.audienceSentiment += lineSentiment[choiceIdx];
+        Debug.Log($"Audience sentiment changed by {lineSentiment[choiceIdx]}");
+        container.currentLine++;
+        if (!isLastConvoLine) {
+            // enable next question
+            container.transform.GetChild(container.selectedConvo).GetChild(container.currentLine).gameObject.SetActive(true);
+
+            // disable self
+            gameObject.SetActive(false);
+        }
     }
 }
