@@ -46,9 +46,15 @@ public class Conversation : MonoBehaviour
         container.currentLine++;
         if (!isLastConvoLine) {
             // enable next question
-            container.transform.GetChild(container.selectedConvo).GetChild(container.currentLine).gameObject.SetActive(true);
+            container.transform.GetChild(container.selectedConvo + 1).GetChild(container.currentLine).gameObject.SetActive(true);
 
             // disable self
+            gameObject.SetActive(false);
+        } 
+        else 
+        {
+            container.player.GetComponent<PlayerMovement>().canMove = true;
+            container.player.GetComponent<PlayerCombat>().canAttack = true;
             gameObject.SetActive(false);
         }
     }
