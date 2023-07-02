@@ -103,11 +103,6 @@ public class PlayerCombat : MonoBehaviour
             Vector3 direction = mousePosition - transform.position;
             // get the angle of the direction
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            // // create a quaternion from the angle
-            // Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            // // set the rotation of this object to the new rotation
-            // transform.rotation = rotation;
-            // Debug.Log(angle);
 
             if (angle > -45f && angle < 45f)
             {
@@ -120,9 +115,6 @@ public class PlayerCombat : MonoBehaviour
             {
                 // Debug.Log("Up");
                 // instantiate a new melee attack object above this object and rotate it to face up
-                // Instantiate(meleeAttack, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
-
-                // instantiate a new melee attack object above this object and rotate it to face up
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 90);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
@@ -131,8 +123,6 @@ public class PlayerCombat : MonoBehaviour
             {
                 // Debug.Log("Left");
                 // instantiate a new melee attack object to the left of this object
-                // Instantiate(meleeAttack, transform.position + new Vector3(-1, 0, 0), Quaternion.identity);
-
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(-0.5f, 0, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 180);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
@@ -141,8 +131,6 @@ public class PlayerCombat : MonoBehaviour
             {
                 // Debug.Log("Down");
                 // instantiate a new melee attack object below this object
-                // Instantiate(meleeAttack, transform.position + new Vector3(0, -1, 0), Quaternion.identity);
-
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0, -0.5f, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 270);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
