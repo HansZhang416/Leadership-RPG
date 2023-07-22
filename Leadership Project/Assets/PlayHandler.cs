@@ -7,6 +7,8 @@ using TMPro;
 public class PlayHandler : MonoBehaviour
 {
     public TextMeshProUGUI currencyIndicator;
+    [HideInInspector]
+    public int currency;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +26,6 @@ public class PlayHandler : MonoBehaviour
         //     currencyIndicator.text = "$" + Center_Manager.Instance.saveLoadManager.currentUserData["currency"];
         // }
         currencyIndicator.text = "$" + Center_Manager.Instance.saveLoadManager.currentUserData["currency"];
+        currency = (int)(Center_Manager.Instance.saveLoadManager.currentUserData["currency"]);
     }
 }

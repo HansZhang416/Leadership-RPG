@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +6,7 @@ using Firebase;
 using Firebase.Auth;
 using Firebase.Firestore;
 using Firebase.Extensions;
+using System;
 
 namespace Managers
 {
@@ -161,7 +162,7 @@ namespace Managers
 
         }
 
-        public void AddCurrency(int amount)
+        public async void AddCurrency(int amount)
         {
             DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
 
@@ -170,7 +171,39 @@ namespace Managers
                 {"currency", FieldValue.Increment(amount)},
             };
 
-            docRef.UpdateAsync(myCurrency);
+            var updateTask = docRef.UpdateAsync(myCurrency);
+
+            try
+            {
+                await updateTask;
+                Debug.Log("Currency Updated Successfully");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Error Updating Currency: " + ex.Message);
+            }
+        }
+
+        public async void AddItem(string item)
+        {
+            DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+
+            Dictionary<string, object> myItems = new Dictionary<string, object>
+            {
+                {"inventory", FieldValue.ArrayUnion(item)},
+            };
+
+            var updateTask = docRef.UpdateAsync(myItems);
+
+            try
+            {
+                await updateTask;
+                Debug.Log("Item Added Successfully");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Error Adding Item: " + ex.Message);
+            }
         }
 
         public void Logout()

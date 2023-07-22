@@ -43,6 +43,8 @@ public class NPC : MonoBehaviour
                 player.GetComponent<PlayerMovement>().canMove = false;
                 player.GetComponent<PlayerCombat>().canAttack = false;
             }
+
+            player.GetComponent<PlayerInterface>().HideInventory();
         }
     }
 

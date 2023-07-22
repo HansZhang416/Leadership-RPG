@@ -18,9 +18,14 @@ namespace Managers
         [HideInInspector] public bool setup;
 
         private void Awake() {
-            Instance = this;
+            if (Instance == null) {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            } else {
+                Destroy(gameObject);
+                return;
+            }
             db = FirebaseFirestore.DefaultInstance;
-            Debug.Log("uh");
             authManager = GetComponent<Authentication>();
             saveLoadManager = GetComponent<SaveLoadManager>();
 

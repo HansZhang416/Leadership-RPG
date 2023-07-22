@@ -79,7 +79,12 @@ public class DialogQuiz : MonoBehaviour
                 speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
                 speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
                 speaker.GetComponent<NPC>().responseText.text = "Correct!";
-                if (Center_Manager.Instance != null) Center_Manager.Instance.authManager.AddCurrency(reward);
+                Debug.Log("Reward: " + reward);
+                if (Center_Manager.Instance != null)
+                {
+                    Debug.Log("Center Manager is not null");
+                    Center_Manager.Instance.authManager.AddCurrency(reward);
+                }
             }
             else
             {
