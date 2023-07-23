@@ -184,15 +184,16 @@ namespace Managers
             }
         }
 
-        public async void AddItem(string item)
+        public async void AddItem(string item, int cost=0)
         {
             DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
 
             Dictionary<string, object> myItems = new Dictionary<string, object>
             {
-                {"inventory", FieldValue.ArrayUnion(item)},
+                { "inventory", FieldValue.ArrayUnion(item) },
+                { "currency", Int32.Parse($"{Center_Manager.Instance.saveLoadManager.currentUserData["currency"]}") - cost },
             };
-
+            Debug.Log("Attempting to add item");
             var updateTask = docRef.UpdateAsync(myItems);
 
             try

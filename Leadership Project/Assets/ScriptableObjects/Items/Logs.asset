@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23e270453a1d82a4a9d2dd6e091d2558, type: 3}
-  m_Name: Teapot
+  m_Name: Logs
   m_EditorClassIdentifier: 
   itemType: 0
   icon: {fileID: 0}

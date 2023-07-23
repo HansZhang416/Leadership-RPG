@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Managers;
 using TMPro;
+using System;
 
 public class PlayHandler : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class PlayHandler : MonoBehaviour
         //     currencyIndicator.text = "$" + Center_Manager.Instance.saveLoadManager.currentUserData["currency"];
         // }
         currencyIndicator.text = "$" + Center_Manager.Instance.saveLoadManager.currentUserData["currency"];
-        currency = (int)(Center_Manager.Instance.saveLoadManager.currentUserData["currency"]);
+        currency = Int32.Parse($"{Center_Manager.Instance.saveLoadManager.currentUserData["currency"]}");
+        // Debug.Log(currency);
     }
 }

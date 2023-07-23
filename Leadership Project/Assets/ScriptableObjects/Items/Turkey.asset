@@ -16,4 +16,5 @@ MonoBehaviour:
   icon: {fileID: -1847433940, guid: 7af4eeac455d2a440a38b1749ab71ca5, type: 3}
   prefab: {fileID: 0}
   value: 10
+  itemName: Turkey
   description: Heals 8 hearts.

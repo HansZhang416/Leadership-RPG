@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Managers;
 
 public class InventoryDisplay : MonoBehaviour
 {
@@ -20,6 +21,17 @@ public class InventoryDisplay : MonoBehaviour
 
     public void UpdateInventory()
     {
+        // currency = Int32.Parse($"{Center_Manager.Instance.saveLoadManager.currentUserData["currency"]}");
+        items.Clear();
+        if (Center_Manager.Instance.saveLoadManager.currentUserData.ContainsKey("inventory"))
+        {
+            // foreach (var item in Center_Manager.Instance.saveLoadManager.currentUserData["inventory"]) {
+            //     Debug.Log($"Adding {item}");
+            //     // items.Add();
+            // }
+        }
+        
+
         for (int i = 0; i < transform.childCount; i++)
         {
             if (i < items.Count)

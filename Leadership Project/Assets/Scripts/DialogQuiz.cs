@@ -65,7 +65,12 @@ public class DialogQuiz : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            speaker.GetComponent<NPC>().player.GetComponent<PlayerMovement>().canMove = true;
+            speaker.GetComponent<NPC>().player.GetComponent<PlayerCombat>().canAttack = true;
+            gameObject.SetActive(false);
+        }
     }
 
     public void Choice(int choiceIdx)

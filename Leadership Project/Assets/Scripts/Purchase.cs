@@ -14,11 +14,13 @@ public class Purchase : MonoBehaviour
     public Item item;
     bool playerInRange;
     public PlayHandler playHandler;
+    public TextMeshProUGUI indicatorText;
     // public TextMeshProUGUI responseText;
     // Start is called before the first frame update
     void Start()
     {
-        playHandler = GameObject.Find("Player").GetComponent<PlayHandler>();
+        // playHandler = GameObject.Find("Player").GetComponent<PlayHandler>();
+        indicatorText.text = $"V: ${item.value}";
     }
 
     // Update is called once per frame
@@ -26,21 +28,23 @@ public class Purchase : MonoBehaviour
     {
         if (playerInRange)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.V))
             {
-                Debug.Log("Player has pressed E");
-                indicator.SetActive(false);
+                Debug.Log("Player has pressed V");
 
                 // purchase the item and add it to the inventory and to firestore
+                Debug.Log(playHandler);
+                Debug.Log(item);
                 if (playHandler.currency >= item.value)
                 {
-                    playHandler.currency -= item.value;
-                    Center_Manager.Instance.saveLoadManager.currentUserData["currency"] = playHandler.currency;
+                    indicator.SetActive(false);
+                    // playHandler.currency -= item.value;
+                    // Center_Manager.Instance.saveLoadManager.currentUserData["currency"] = playHandler.currency;
                     // Center_Manager.Instance.saveLoadManager.currentUserData["inventory"].Add(item.name);
                     // Center_Manager.Instance.saveLoadManager.SaveUserData();
 
                     // add item to inventory
-                    Center_Manager.Instance.authManager.AddItem(item.name);
+                    Center_Manager.Instance.authManager.AddItem(item.name, item.value);
 
                     Debug.Log("Item purchased");
 
