@@ -38,7 +38,7 @@ public class Slash : MonoBehaviour
         {
             if (source != null)
             {
-                collision.gameObject.GetComponent<Enemy>().TakeDamage(source.GetComponent<PlayerCombat>().attack);
+                collision.gameObject.GetComponent<Enemy>().TakeDamage(source.GetComponent<PlayerCombat>().attack + source.GetComponent<PlayerCombat>().weaponValue);
             }
             else
             {
@@ -48,7 +48,7 @@ public class Slash : MonoBehaviour
         }
         else if (origin == "enemy" && collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerCombat>().TakeDamage(1);
+            collision.gameObject.GetComponent<PlayerCombat>().TakeDamage(4 - collision.gameObject.GetComponent<PlayerCombat>().defense - collision.gameObject.GetComponent<PlayerCombat>().armorValue);
         }
     }
 

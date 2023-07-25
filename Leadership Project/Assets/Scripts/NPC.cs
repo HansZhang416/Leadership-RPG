@@ -7,10 +7,11 @@ public class NPC : MonoBehaviour
 {
     public GameObject indicator;
     public TextMeshProUGUI responseText;
-    public enum DialogueType { General, Quiz };
+    public enum DialogueType { General, Quiz, Vendor };
     public DialogueType dialogueType;
     public GameObject generalDialogue;
     public GameObject quizDialogue;
+    public GameObject vendorDialogue;
 
     public Transform followupQuestions;
 
@@ -39,6 +40,10 @@ public class NPC : MonoBehaviour
                 else if (dialogueType == DialogueType.Quiz)
                 {
                     quizDialogue.SetActive(true);
+                }
+                else if (dialogueType == DialogueType.Vendor)
+                {
+                    vendorDialogue.SetActive(true);
                 }
                 player.GetComponent<PlayerMovement>().canMove = false;
                 player.GetComponent<PlayerCombat>().canAttack = false;

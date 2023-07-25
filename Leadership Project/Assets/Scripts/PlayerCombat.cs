@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     public int maxHealth = 5;
     public int health = 5;
     public int attack = 1;
+    public int defense = 0;
     public float cooldown = 1f;
     public float invincibilityTime = 1f;
     float currentCooldown = 0f;
@@ -24,6 +25,13 @@ public class PlayerCombat : MonoBehaviour
     public Transform healthBar;
     public GameObject buffUI;
 
+    [HideInInspector]
+    public int armorValue;
+    [HideInInspector]
+    public int weaponValue;
+    [HideInInspector]
+    public int shieldValue;
+
 
     public void TakeDamage(int damage)
     {
@@ -34,7 +42,7 @@ public class PlayerCombat : MonoBehaviour
 
         Debug.Log("ow");
         health -= damage;
-        currentInvincibilityTime = invincibilityTime;
+        currentInvincibilityTime = invincibilityTime + shieldValue;
 
         if (health <= 0)
         {

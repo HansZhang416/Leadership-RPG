@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerLoadout : MonoBehaviour
 {
-    public GameObject helmet;
-    public GameObject chest;
-    public GameObject legs;
-    public GameObject weapon;
-    public GameObject shield;
+    // public GameObject helmet;
+    // public GameObject chest;
+    // public GameObject legs;
+    // public GameObject weapon;
+    // public GameObject shield;
 
     public List<Sprite> defaultLoadout;
     

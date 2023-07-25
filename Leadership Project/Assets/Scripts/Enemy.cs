@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public GameObject meleeAttack;
     public AIDestinationSetter destinationSetter;
 
-    public int health = 3;
+    public int health = 5;
 
     public void TakeDamage(int damage)
     {
