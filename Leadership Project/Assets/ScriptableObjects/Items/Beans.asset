@@ -9,11 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e270453a1d82a4a9d2dd6e091d2558, type: 3}
+  m_Script: {fileID: 11500000, guid: 756a045de608e374ab3025ab6bfff4f3, type: 3}
   m_Name: Beans
   m_EditorClassIdentifier: 
-  itemType: 3
-  icon: {fileID: 0}
+  itemType: 0
+  icon: {fileID: 1063060953, guid: 7af4eeac455d2a440a38b1749ab71ca5, type: 3}
   prefab: {fileID: 0}
   value: 3
-  description: Heals 2 hearts.
+  itemName: Beans
+  description: Heals 1 heart every 15 seconds for 1 minute.
+  healAmount: 1
+  regeneration: 1
+  interval: 15
+  limit: 4

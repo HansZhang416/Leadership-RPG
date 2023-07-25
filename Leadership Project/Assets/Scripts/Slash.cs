@@ -5,6 +5,7 @@ using UnityEngine;
 public class Slash : MonoBehaviour
 {
     public string origin;
+    public GameObject source;
 
     // Update is called once per frame
     void Update()
@@ -35,7 +36,15 @@ public class Slash : MonoBehaviour
         // if I hit an enemy, damage them
         if (origin == "player" && collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
+            if (source != null)
+            {
+                collision.gameObject.GetComponent<Enemy>().TakeDamage(source.GetComponent<PlayerCombat>().attack);
+            }
+            else
+            {
+                collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
+            }
+            
         }
         else if (origin == "enemy" && collision.gameObject.tag == "Player")
         {

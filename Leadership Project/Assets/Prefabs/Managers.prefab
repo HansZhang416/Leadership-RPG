@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   authManager: {fileID: 0}
+  saveLoadManager: {fileID: 0}
   setup: 0
 --- !u!114 &8630493217113427540
 MonoBehaviour:
@@ -73,3 +74,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1681dd0a86c854446ae26dbea9895cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemList: {fileID: 11400000, guid: 0e6dd8a6c951dbf46857906c54f47d0b, type: 2}

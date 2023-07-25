@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e270453a1d82a4a9d2dd6e091d2558, type: 3}
   m_Name: Logs
   m_EditorClassIdentifier: 
-  itemType: 0
-  icon: {fileID: 0}
+  itemType: 3
+  icon: {fileID: 949709957, guid: 7af4eeac455d2a440a38b1749ab71ca5, type: 3}
   prefab: {fileID: 0}
-  value: 0
-  description: 
+  value: 3
+  itemName: Logs
+  description: Destrucible Barrier

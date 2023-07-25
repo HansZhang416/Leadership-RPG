@@ -9,12 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e270453a1d82a4a9d2dd6e091d2558, type: 3}
+  m_Script: {fileID: 11500000, guid: 756a045de608e374ab3025ab6bfff4f3, type: 3}
   m_Name: Turkey
   m_EditorClassIdentifier: 
-  itemType: 3
+  itemType: 0
   icon: {fileID: -1847433940, guid: 7af4eeac455d2a440a38b1749ab71ca5, type: 3}
   prefab: {fileID: 0}
   value: 10
   itemName: Turkey
   description: Heals 8 hearts.
+  healAmount: 8
+  regeneration: 0
+  interval: 0
+  limit: 0

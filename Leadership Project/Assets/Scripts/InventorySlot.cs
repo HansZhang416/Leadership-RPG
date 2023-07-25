@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using Managers;
 
-public class InventorySlot : MonoBehaviour
+public class InventorySlot : MonoBehaviour, IPointerClickHandler
 {
     Item lastItem;
     public Item item;
@@ -39,6 +39,40 @@ public class InventorySlot : MonoBehaviour
             amountText.enabled = false;
 
             itemInfoPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
+        }
+    }
+
+    public void UpdateAmount()
+    {
+        amountText.text = amount.ToString();
+    }
+
+    // check if user right-clicked on me
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if(eventData.button == PointerEventData.InputButton.Right)
+        {
+            Debug.Log($"Right-clicked on me {this.name}");
+            if (item != null)
+            {
+                Debug.Log($"There is an item in me {item.itemName}");
+
+                // use the item
+                item.Use();
+
+                // delete the item from the inventory
+                if (item.itemType == Item.ItemType.Consumable)
+                {
+                    amount--;
+                    UpdateAmount();
+                    if (amount == 0)
+                    {
+                        item = null;
+                    }
+                    Center_Manager.Instance.authManager.DeleteItem(item.name);
+                }
+                
+            }
         }
     }
 }

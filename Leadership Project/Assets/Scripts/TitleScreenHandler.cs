@@ -10,7 +10,7 @@ public class TitleScreenHandler : MonoBehaviour
 
     void Start()
     {
-        Center_Manager.Instance.saveLoadManager.ListenForUserData();
+        // Center_Manager.Instance.saveLoadManager.ListenForUserData();
         Debug.Log(Center_Manager.Instance);
     }
 

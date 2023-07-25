@@ -15,12 +15,17 @@ public class Purchase : MonoBehaviour
     bool playerInRange;
     public PlayHandler playHandler;
     public TextMeshProUGUI indicatorText;
+    public InventoryDisplay inventoryDisplay;
+    SpriteRenderer spriteRenderer;
     // public TextMeshProUGUI responseText;
     // Start is called before the first frame update
     void Start()
     {
         // playHandler = GameObject.Find("Player").GetComponent<PlayHandler>();
         indicatorText.text = $"V: ${item.value}";
+        // inventoryDisplay = GameObject.Find("Inventory").GetComponent<InventoryDisplay>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = item.icon;
     }
 
     // Update is called once per frame
@@ -37,6 +42,13 @@ public class Purchase : MonoBehaviour
                 Debug.Log(item);
                 if (playHandler.currency >= item.value)
                 {
+                    // check if the user already owns the item
+                    if ((Center_Manager.Instance.saveLoadManager.currentUserData["inventory"] as List<string>).Contains(item.name) && item.itemType != Item.ItemType.Consumable)
+                    {
+                        Debug.Log("User already owns this item");
+                        return;
+                    }
+
                     indicator.SetActive(false);
                     // playHandler.currency -= item.value;
                     // Center_Manager.Instance.saveLoadManager.currentUserData["currency"] = playHandler.currency;
@@ -44,7 +56,7 @@ public class Purchase : MonoBehaviour
                     // Center_Manager.Instance.saveLoadManager.SaveUserData();
 
                     // add item to inventory
-                    Center_Manager.Instance.authManager.AddItem(item.name, item.value);
+                    Center_Manager.Instance.authManager.AddItem(item.name, item.value, inventoryDisplay);
 
                     Debug.Log("Item purchased");
 

@@ -14,8 +14,8 @@ namespace Managers
         DocumentReference docRef;
         ListenerRegistration listener;
         public Dictionary<string, object> currentUserData;
-        
-
+        public Dictionary<string, Item> itemDict;
+        public ItemList itemList;
         void Start()
         {
             // db = FirebaseFirestore.DefaultInstance;
@@ -25,6 +25,13 @@ namespace Managers
             //     Dictionary<string, object> user_data = snapshot.ToDictionary();
             //     Debug.Log($"Here is the play's level: {user_data["level"]}");
             // });
+
+            // load items
+            itemDict = new Dictionary<string, Item>();
+            foreach (Item item in itemList.items)
+            {
+                itemDict.Add(item.name, item);
+            }
         }
 
         public void ListenForUserData()
@@ -46,6 +53,8 @@ namespace Managers
                     Debug.Log($"{pair.Key}: {pair.Value}");
                 }
             });
+
+            
         }
 
         public void StopListening()

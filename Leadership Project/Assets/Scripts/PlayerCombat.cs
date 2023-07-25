@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     [Header("Stats")]
     public int maxHealth = 5;
     public int health = 5;
+    public int attack = 1;
     public float cooldown = 1f;
     public float invincibilityTime = 1f;
     float currentCooldown = 0f;
@@ -21,6 +22,7 @@ public class PlayerCombat : MonoBehaviour
     [Header("UI")]
     public GameObject gameOverUI;
     public Transform healthBar;
+    public GameObject buffUI;
 
 
     public void TakeDamage(int damage)
@@ -79,6 +81,73 @@ public class PlayerCombat : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void Heal(int healAmount, bool regeneration = false, float interval = 10f, int limit = 1)
+    {
+        if (regeneration)
+        {
+            StartCoroutine(RegenerateHealth(healAmount, interval, limit));
+        }
+        else
+        {
+            health += healAmount;
+            if (health > maxHealth)
+            {
+                health = maxHealth;
+            }
+        }
+        
+    }
+
+    public void BuffInterface(string buffType)
+    {
+        if (buffType == "attack")
+        {
+            StartCoroutine(BuffAttack());
+        }
+        else if (buffType == "invincibility")
+        {
+            StartCoroutine(BuffInvincibility());
+        }
+        else if (buffType == "regeneration")
+        {
+            StartCoroutine(RegenerateHealth(1, 10f, 999));
+        }
+    }
+
+    public IEnumerator RegenerateHealth(int healAmount=1, float interval=10f, int limit=1)
+    {
+        buffUI.transform.GetChild(0).gameObject.SetActive(true);
+        while (limit > 0)
+        {
+            Heal(healAmount);
+            limit--;
+            yield return new WaitForSeconds(interval);
+        }
+        
+        // deactivate the buff UI's Regen child
+        buffUI.transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    // Buff a player's attack by 2 for 1 minute
+    public IEnumerator BuffAttack()
+    {
+        buffUI.transform.GetChild(2).gameObject.SetActive(true);
+        attack += 2;
+        yield return new WaitForSeconds(60f);
+        attack -= 2;
+        buffUI.transform.GetChild(2).gameObject.SetActive(false);
+    }
+
+    // Raise invincibility time by 3 seconds
+    public IEnumerator BuffInvincibility()
+    {
+        buffUI.transform.GetChild(1).gameObject.SetActive(true);
+        invincibilityTime += 3f;
+        yield return new WaitForSeconds(60f);
+        invincibilityTime -= 3f;
+        buffUI.transform.GetChild(1).gameObject.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -110,6 +179,7 @@ public class PlayerCombat : MonoBehaviour
                 // instantiate a new melee attack object to the right of this object
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0.5f, 0, 0), Quaternion.identity);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
+                newMeleeAttack.GetComponent<Slash>().source = gameObject;
             }
             else if (angle > 45f && angle < 135f)
             {
@@ -118,6 +188,7 @@ public class PlayerCombat : MonoBehaviour
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 90);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
+                newMeleeAttack.GetComponent<Slash>().source = gameObject;
             }
             else if (angle > 135f || angle < -135f)
             {
@@ -126,6 +197,7 @@ public class PlayerCombat : MonoBehaviour
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(-0.5f, 0, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 180);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
+                newMeleeAttack.GetComponent<Slash>().source = gameObject;
             }
             else if (angle > -135f && angle < -45f)
             {
@@ -134,6 +206,7 @@ public class PlayerCombat : MonoBehaviour
                 GameObject newMeleeAttack = Instantiate(meleeAttack, transform.position + new Vector3(0, -0.5f, 0), Quaternion.identity);
                 newMeleeAttack.transform.Rotate(0, 0, 270);
                 newMeleeAttack.GetComponent<Slash>().origin = "player";
+                newMeleeAttack.GetComponent<Slash>().source = gameObject;
             }
         }
 

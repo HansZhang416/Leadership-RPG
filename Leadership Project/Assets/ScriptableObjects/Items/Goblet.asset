@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e270453a1d82a4a9d2dd6e091d2558, type: 3}
+  m_Script: {fileID: 11500000, guid: 09b6b290b1168cd4cba6ac849a44c0d6, type: 3}
   m_Name: Goblet
   m_EditorClassIdentifier: 
   itemType: 3
-  icon: {fileID: 0}
+  icon: {fileID: 539911958, guid: 7af4eeac455d2a440a38b1749ab71ca5, type: 3}
   prefab: {fileID: 0}
-  value: 0
-  description: 
+  value: 5
+  itemName: Goblet
+  description: Stronger attacks for 1 minute.
+  buffType: 0

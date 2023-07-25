@@ -23,4 +23,9 @@ public class Item : ScriptableObject
     public string itemName;
     [TextArea(3, 10)]
     public string description;
+
+    public virtual void Use()
+    {
+        Debug.Log("Using " + itemName);
+    }
 }

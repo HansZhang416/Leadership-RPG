@@ -174,7 +174,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.75}
-  m_SizeDelta: {x: 1, y: 1}
+  m_SizeDelta: {x: 2, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1643309194489253000
 Canvas:
@@ -353,9 +353,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 474683601321588975}
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: 77b75bdc0e5397f4a98ae995124ddda1, type: 2}
   playHandler: {fileID: 0}
   indicatorText: {fileID: 8483546144070051060}
+  inventoryDisplay: {fileID: 0}
 --- !u!1 &6046982628045690716
 GameObject:
   m_ObjectHideFlags: 0

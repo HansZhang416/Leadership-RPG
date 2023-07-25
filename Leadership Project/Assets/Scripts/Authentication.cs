@@ -184,9 +184,50 @@ namespace Managers
             }
         }
 
-        public async void AddItem(string item, int cost=0)
+        public async void AddItem(string item, int cost=0, InventoryDisplay inventoryDisplay=null)
         {
             DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+
+            // check if item already exists in inventory
+            if (Center_Manager.Instance.saveLoadManager.currentUserData.ContainsKey("inventory"))
+            {
+                foreach (string i in Center_Manager.Instance.saveLoadManager.currentUserData["inventory"] as List<object>)
+                {
+                    if (i == item)
+                    {
+                        Debug.Log("Item already exists in inventory");
+                        
+                        // add duplicate item to inventory
+                        List<object> inventory = Center_Manager.Instance.saveLoadManager.currentUserData["inventory"] as List<object>;
+                        inventory.Add(item);
+                        Dictionary<string, object> items = new Dictionary<string, object>
+                        {
+                            { "inventory", inventory },
+                            { "currency", Int32.Parse($"{Center_Manager.Instance.saveLoadManager.currentUserData["currency"]}") - cost },
+                        };
+                        Debug.Log("Attempting to add item");
+                        var dupeUpdateTask = docRef.UpdateAsync(items);
+
+                        try
+                        {
+                            await dupeUpdateTask;
+                            Debug.Log("Item Added Successfully");
+                            if (inventoryDisplay != null)
+                            {
+                                inventoryDisplay.UpdateInventory();
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.LogError("Error Adding Item: " + ex.Message);
+                        }
+
+                        return;
+                    }
+                }
+
+                
+            }
 
             Dictionary<string, object> myItems = new Dictionary<string, object>
             {
@@ -200,10 +241,36 @@ namespace Managers
             {
                 await updateTask;
                 Debug.Log("Item Added Successfully");
+                if (inventoryDisplay != null)
+                {
+                    inventoryDisplay.UpdateInventory();
+                }
             }
             catch (Exception ex)
             {
                 Debug.LogError("Error Adding Item: " + ex.Message);
+            }
+        }
+
+        public async void DeleteItem(string item)
+        {
+            DocumentReference docRef = db.Collection("user_data").Document(user.UserId);
+
+            Dictionary<string, object> myItems = new Dictionary<string, object>
+            {
+                { "inventory", FieldValue.ArrayRemove(item) },
+            };
+
+            var updateTask = docRef.UpdateAsync(myItems);
+
+            try
+            {
+                await updateTask;
+                Debug.Log("Item Deleted Successfully");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Error Deleting Item: " + ex.Message);
             }
         }
 
