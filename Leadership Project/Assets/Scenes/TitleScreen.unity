@@ -329,12 +329,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   health: 5
+  attack: 1
   cooldown: 1
   invincibilityTime: 1
   meleeAttack: {fileID: 1176623176848616370, guid: 286b3b05aeaa8fe43bc15ab8ceef1d0a, type: 3}
   canAttack: 1
   gameOverUI: {fileID: 0}
   healthBar: {fileID: 0}
+  buffUI: {fileID: 0}
 --- !u!58 &15768896
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -667,10 +669,10 @@ RectTransform:
   m_Father: {fileID: 362208390}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: 132.7}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 107.79477}
+  m_SizeDelta: {x: 300, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68836134
 MonoBehaviour:
@@ -70563,10 +70565,10 @@ RectTransform:
   m_Father: {fileID: 362208390}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: 17.905243}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -7}
+  m_SizeDelta: {x: 300, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840278793
 MonoBehaviour:
@@ -71149,10 +71151,10 @@ RectTransform:
   m_Father: {fileID: 362208390}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -117.20801, y: 35.872803}
-  m_SizeDelta: {x: 234.41602, y: 71.74548}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -125.999985}
+  m_SizeDelta: {x: 300, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952940365
 MonoBehaviour:

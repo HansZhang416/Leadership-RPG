@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Managers;
 using TMPro;
 
 public class Conversation : MonoBehaviour
@@ -16,6 +17,7 @@ public class Conversation : MonoBehaviour
     public List<int> lineSentiment;
 
     public Transform choices;
+    public GameObject reactionParticles;
 
     [Header("UI")]
     public TextMeshProUGUI startingText;
@@ -25,7 +27,7 @@ public class Conversation : MonoBehaviour
     void Start()
     {
         startingText.text = startingLine;
-        for (int i = 0; i < 5; i++) 
+        for (int i = 0; i < 4; i++) 
         {
             if (i < followupLines.Count) 
             {
@@ -44,6 +46,19 @@ public class Conversation : MonoBehaviour
         container.audienceSentiment += lineSentiment[choiceIdx];
         Debug.Log($"Audience sentiment changed by {lineSentiment[choiceIdx]}");
         container.currentLine++;
+
+        foreach (Transform child in reactionParticles.transform) {
+            child.gameObject.SetActive(false);
+        }
+
+        if (lineSentiment[choiceIdx] > 0) {
+            reactionParticles.transform.GetChild(0).gameObject.SetActive(true);
+        } else if (lineSentiment[choiceIdx] < 0) {
+            reactionParticles.transform.GetChild(2).gameObject.SetActive(true);
+        } else {
+            reactionParticles.transform.GetChild(1).gameObject.SetActive(true);
+        }
+
         if (!isLastConvoLine) {
             // enable next question
             container.transform.GetChild(container.selectedConvo + 1).GetChild(container.currentLine).gameObject.SetActive(true);
@@ -56,6 +71,10 @@ public class Conversation : MonoBehaviour
             container.player.GetComponent<PlayerMovement>().canMove = true;
             container.player.GetComponent<PlayerCombat>().canAttack = true;
             gameObject.SetActive(false);
+
+            // give currency scaled off of sentiment score
+            Debug.Log($"The reward should be {container.audienceSentiment * 50}");
+            Center_Manager.Instance.authManager.AddCurrency(container.audienceSentiment * 50);
         }
     }
 }

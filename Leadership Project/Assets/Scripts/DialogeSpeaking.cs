@@ -52,6 +52,7 @@ public class DialogeSpeaking : MonoBehaviour
                 player.GetComponent<PlayerCombat>().canAttack = false;
                 PickConversation();
             }
+            player.GetComponent<PlayerInterface>().HideInventory();
         }
     }
 
